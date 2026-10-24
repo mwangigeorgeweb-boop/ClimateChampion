@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🚗 Personal Car" android:textSize="17sp" android:textStyle="bold"
+            android:textColor="@color/text_primary" android:layout_marginTop="8dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Car type" android:textColor="@color/text_secondary"
+            android:textSize="13sp" android:layout_marginTop="12dp"/>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupCarType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            app:singleSelection="true">
+            <com.google.android.material.chip.Chip android:id="@+id/chipPetrol"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⛽ Petrol" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipDiesel"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🛢 Diesel" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipHybrid"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🔋 Hybrid" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipElectric"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⚡ Electric" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Kilometres driven per week"
+            android:textColor="@color/text_secondary" android:textSize="13sp"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <SeekBar android:id="@+id/seekbarCarKm"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:max="500" android:progress="0"/>
+            <TextView android:id="@+id/tvCarKmValue"
+                android:layout_width="80dp" android:layout_height="wrap_content"
+                android:layout_marginStart="8dp" android:gravity="end"
+                android:text="0 km/week" android:textColor="@color/primary_green"
+                android:textSize="13sp" android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#E0E0E0" android:layout_marginVertical="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="✈️ Flights per year" android:textSize="17sp" android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="12dp"
+            android:gravity="center_vertical">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical" android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Short-haul (&lt; 3 hrs)" android:textColor="@color/text_secondary"
+                    android:textSize="13sp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etShortFlights"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:inputType="number" android:text="0" android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Long-haul (&gt; 3 hrs)" android:textColor="@color/text_secondary"
+                    android:textSize="13sp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etLongFlights"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:inputType="number" android:text="0" android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#E0E0E0" android:layout_marginVertical="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🚌 Public Transport" android:textSize="17sp" android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Hours per week (bus, train, metro)"
+            android:textColor="@color/text_secondary" android:textSize="13sp"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <SeekBar android:id="@+id/seekbarTransit"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:max="40" android:progress="0"/>
+            <TextView android:id="@+id/tvTransitValue"
+                android:layout_width="80dp" android:layout_height="wrap_content"
+                android:layout_marginStart="8dp" android:gravity="end"
+                android:text="0 hrs/week" android:textColor="@color/primary_green"
+                android:textSize="13sp" android:textStyle="bold"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:layout_marginTop="24dp" android:layout_marginBottom="8dp"
+            android:text="Next: Home Energy →" android:textSize="16sp"
+            app:backgroundTint="@color/primary_green"/>
+    </LinearLayout>
+</ScrollView>

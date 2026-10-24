@@ -1,0 +1,43 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "topics",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isPublished",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "orderIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ],
+      "density": "SPARSE_ALL"
+    },
+    {
+      "collectionGroup": "Videos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isPublished",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "orderIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ],
+      "density": "SPARSE_ALL"
+    }
+  ],
+  "fieldOverrides": []
+}

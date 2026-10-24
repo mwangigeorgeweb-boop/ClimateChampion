@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/activity_login.xml",
+        "source": "com.climatechampion.app-main-64:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_carbon_result.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_carbon_result.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_topic_list.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_topic_list.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/item_topic.xml",
+        "source": "com.climatechampion.app-main-64:/layout/item_topic.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_leaderboard.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_leaderboard.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/activity_splash.xml",
+        "source": "com.climatechampion.app-main-64:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_video_list.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_video_list.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_quiz.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_quiz.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_carbon_calculator.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_carbon_calculator.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/item_leaderboard.xml",
+        "source": "com.climatechampion.app-main-64:/layout/item_leaderboard.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/activity_main.xml",
+        "source": "com.climatechampion.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_profile.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/item_video.xml",
+        "source": "com.climatechampion.app-main-64:/layout/item_video.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/item_subtopic.xml",
+        "source": "com.climatechampion.app-main-64:/layout/item_subtopic.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_video_player.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_video_player.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_topic_detail.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_topic_detail.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_step_home_energy.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_step_home_energy.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_step_waste.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_step_waste.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_home.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/activity_register.xml",
+        "source": "com.climatechampion.app-main-64:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_quiz_result.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_quiz_result.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/fragment_step_transport.xml",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_step_transport.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-mergeDebugResources-61:/layout/item_carbon_tip.xml",
+        "source": "com.climatechampion.app-main-64:/layout/item_carbon_tip.xml"
+    }
+]

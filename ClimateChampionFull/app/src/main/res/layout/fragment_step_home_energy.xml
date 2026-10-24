@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="⚡ Electricity" android:textSize="17sp" android:textStyle="bold"
+            android:textColor="@color/text_primary" android:layout_marginTop="8dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Monthly usage (check your bill)" android:textColor="@color/text_secondary"
+            android:textSize="13sp" android:layout_marginTop="12dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <SeekBar android:id="@+id/seekbarElectricity" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1" android:max="600"/>
+            <TextView android:id="@+id/tvElectricityValue" android:layout_width="100dp"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp"
+                android:gravity="end" android:text="0 kWh/mo"
+                android:textColor="@color/primary_green" android:textSize="13sp" android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Energy source" android:textColor="@color/text_secondary"
+            android:textSize="13sp" android:layout_marginTop="12dp"/>
+        <com.google.android.material.chip.ChipGroup android:id="@+id/chipGroupEnergy"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" app:singleSelection="true">
+            <com.google.android.material.chip.Chip android:id="@+id/chipGrid"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🔌 Grid (standard)" style="@style/Widget.MaterialComponents.Chip.Choice" android:checked="true"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipMixed"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⚡ Mixed" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipRenewable"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="☀️ 100% Renewable" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+        </com.google.android.material.chip.ChipGroup>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#E0E0E0" android:layout_marginVertical="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🔥 Gas &amp; Heating" android:textSize="17sp" android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Natural gas (m³/month, 0 if none)" android:textColor="@color/text_secondary"
+            android:textSize="13sp" android:layout_marginTop="12dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <SeekBar android:id="@+id/seekbarGas" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1" android:max="200"/>
+            <TextView android:id="@+id/tvGasValue" android:layout_width="80dp"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp"
+                android:gravity="end" android:text="0 m³/mo"
+                android:textColor="@color/primary_green" android:textSize="13sp" android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Primary heating type" android:textColor="@color/text_secondary"
+            android:textSize="13sp" android:layout_marginTop="12dp"/>
+        <com.google.android.material.chip.ChipGroup android:id="@+id/chipGroupHeating"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" app:singleSelection="true">
+            <com.google.android.material.chip.Chip android:id="@+id/chipHeatingGas"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🔥 Gas boiler" style="@style/Widget.MaterialComponents.Chip.Choice" android:checked="true"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipHeatingElectric"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⚡ Electric" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipHeatingOil"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🛢 Oil" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipHeatingHeatPump"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🌡️ Heat pump" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+            <com.google.android.material.chip.Chip android:id="@+id/chipHeatingNone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="❌ None" style="@style/Widget.MaterialComponents.Chip.Choice"/>
+        </com.google.android.material.chip.ChipGroup>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#E0E0E0" android:layout_marginVertical="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="👨‍👩‍👧 Household Size" android:textSize="17sp" android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Shared home costs divided between residents"
+            android:textColor="@color/text_secondary" android:textSize="13sp" android:layout_marginTop="6dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="8dp">
+            <SeekBar android:id="@+id/seekbarHousehold" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1" android:max="5"/>
+            <TextView android:id="@+id/tvHouseholdValue" android:layout_width="80dp"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp"
+                android:gravity="end" android:text="1 person"
+                android:textColor="@color/primary_green" android:textSize="13sp" android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="24dp" android:layout_marginBottom="8dp">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBack"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp" android:layout_height="56dp"
+                android:layout_weight="1" android:layout_marginEnd="8dp"
+                android:text="← Back" app:strokeColor="@color/primary_green"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNext"
+                android:layout_width="0dp" android:layout_height="56dp"
+                android:layout_weight="2" android:layout_marginStart="8dp"
+                android:text="Next: Waste →" android:textSize="15sp"
+                app:backgroundTint="@color/primary_green"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

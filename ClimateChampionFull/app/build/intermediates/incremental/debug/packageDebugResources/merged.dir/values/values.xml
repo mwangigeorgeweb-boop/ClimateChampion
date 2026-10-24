@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F5F5</color>
+    <color name="correct_green">#388E3C</color>
+    <color name="difficulty_beginner">#43A047</color>
+    <color name="difficulty_expert">#E53935</color>
+    <color name="difficulty_intermediate">#FB8C00</color>
+    <color name="highlight_user">#E8F5E9</color>
+    <color name="incorrect_red">#D32F2F</color>
+    <color name="option_default">#FFFFFF</color>
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="primary_green_light">#A5D6A7</color>
+    <color name="quiz_option_selected">#BBDEFB</color>
+    <color name="rank_bronze">#CD7F32</color>
+    <color name="rank_gold">#FFD700</color>
+    <color name="rank_silver">#C0C0C0</color>
+    <color name="secondary_blue">#1565C0</color>
+    <color name="secondary_blue_light">#90CAF9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <string name="already_have_account">Already have an account? Log in</string>
+    <string name="app_name">Climate Champion</string>
+    <string name="completed">✓ Completed</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="correct">✓ Correct!</string>
+    <string name="create_account">Create Account</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+    <string name="display_name">Display Name</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="email">Email address</string>
+    <string name="enter_valid_email">Please enter a valid email address</string>
+    <string name="failed">Keep Trying 💪</string>
+    <string name="failed_message">Don\'t worry — review the material and try again!</string>
+    <string name="firebase_database_url" translatable="false">https://climate-champion-full-default-rtdb.firebaseio.com</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="gcm_defaultSenderId" translatable="false">65824555436</string>
+    <string name="google_api_key" translatable="false">AIzaSyAM4qhbKinMPtDaPbo8zw7lhbqWkS5pDkI</string>
+    <string name="google_app_id" translatable="false">1:65824555436:android:184b785e0bd49e7aabba09</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAM4qhbKinMPtDaPbo8zw7lhbqWkS5pDkI</string>
+    <string name="google_sign_in_failed">Google sign-in failed. Please try again.</string>
+    <string name="google_storage_bucket" translatable="false">climate-champion-full.firebasestorage.app</string>
+    <string name="greeting_format">Hello, %s! 👋</string>
+    <string name="incorrect_answer">✗ Incorrect. Answer: %s</string>
+    <string name="login">Log In</string>
+    <string name="login_subtitle">Sign in to continue your journey</string>
+    <string name="max_level_reached">🏆 You\'ve reached Expert level!</string>
+    <string name="name_too_short">Name must be at least 2 characters</string>
+    <string name="no_points_earned">Keep practising — you\'ll get there!</string>
+    <string name="or">— or —</string>
+    <string name="passed">PASSED! 🎉</string>
+    <string name="passed_message">Well done! You passed this quiz!</string>
+    <string name="password">Password (min 8 chars)</string>
+    <string name="password_min_length">Password must be at least 8 characters</string>
+    <string name="password_reset_sent">Password reset email sent!</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="percent_format">%d%%</string>
+    <string name="perfect_score_message">🏆 Incredible! You got a perfect score!</string>
+    <string name="points_awarded">🎉 +%d points for watching!</string>
+    <string name="points_earned_format">🎉 +%d Points Earned!</string>
+    <string name="points_format">%s pts</string>
+    <string name="points_reward_format">+%d pts</string>
+    <string name="points_to_next_level">%d pts to next level</string>
+    <string name="project_id" translatable="false">climate-champion-full</string>
+    <string name="question_progress">Question %1$d of %2$d</string>
+    <string name="quiz_btn_finish">Finish</string>
+    <string name="quiz_btn_next">Next</string>
+    <string name="quiz_false">✗ False</string>
+    <string name="quiz_no_questions">No questions available for this topic</string>
+    <string name="quiz_score_format">%1$d / %2$d Correct</string>
+    <string name="quiz_time_up">Time\'s up!</string>
+    <string name="quiz_true">✓ True</string>
+    <string name="read_time_format">%d min read</string>
+    <string name="register_subtitle">Join millions protecting the planet</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+    <string name="tagline">Learn. Act. Champion the Planet. 🌍</string>
+    <string name="timer_format">⏱ %d</string>
+    <string name="topic_complete_congrats">🎉 Topic complete! +50 points awarded!</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <style name="Theme.ClimateChampion" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryDark">@color/primary_green_dark</item>
+        <item name="colorAccent">@color/secondary_blue</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="Theme.ClimateChampion.Splash" parent="Theme.ClimateChampion">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/primary_green</item>
+    </style>
+</resources>

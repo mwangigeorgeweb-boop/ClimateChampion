@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ClimateChampion" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryDark">@color/primary_green_dark</item>
+        <item name="colorAccent">@color/secondary_blue</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.ClimateChampion.Splash" parent="Theme.ClimateChampion">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/primary_green</item>
+    </style>
+</resources>

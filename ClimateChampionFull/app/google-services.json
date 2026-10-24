@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "65824555436",
+    "firebase_url": "https://climate-champion-full-default-rtdb.firebaseio.com",
+    "project_id": "climate-champion-full",
+    "storage_bucket": "climate-champion-full.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65824555436:android:184b785e0bd49e7aabba09",
+        "android_client_info": {
+          "package_name": "com.climatechampion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65824555436-sjv2a8ftsi41lop7nqfgtlob2patihmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.climatechampion",
+            "certificate_hash": "34247e9fec5bec2f5231890962592e062b87edd9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4qhbKinMPtDaPbo8zw7lhbqWkS5pDkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65824555436-tb8mj4qcdhu04f4uvff7o5de62ag5h82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

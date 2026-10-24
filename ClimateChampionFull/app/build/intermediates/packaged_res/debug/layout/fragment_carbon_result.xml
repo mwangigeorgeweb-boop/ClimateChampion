@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero Result Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="0dp" app:cardCornerRadius="0dp" app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/primary_green">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:gravity="center" android:padding="24dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Your Annual Carbon Footprint" android:textColor="#CCFFFFFF"
+                    android:textSize="14sp"/>
+                <TextView android:id="@+id/tvTotalEmissions"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="3.2 tonnes" android:textColor="@color/white"
+                    android:textSize="48sp" android:textStyle="bold" android:layout_marginTop="4dp"/>
+                <TextView android:id="@+id/tvTotalLabel"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="CO₂ equivalent per year" android:textColor="#CCFFFFFF" android:textSize="13sp"/>
+                <TextView android:id="@+id/tvGrade"
+                    android:layout_width="72dp" android:layout_height="72dp"
+                    android:layout_marginTop="16dp" android:gravity="center"
+                    android:text="B" android:textColor="@color/white"
+                    android:textSize="36sp" android:textStyle="bold"
+                    android:background="@drawable/bg_grade_circle"/>
+                <TextView android:id="@+id/tvComparison"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp" android:gravity="center"
+                    android:text="📊 About the world average" android:textColor="@color/white"
+                    android:textSize="14sp"/>
+                <TextView android:id="@+id/tvPointsEarned"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" android:text="🎉 +50 Points Earned!"
+                    android:textColor="@color/white" android:textSize="16sp" android:textStyle="bold"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+
+            <!-- Breakdown -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Emissions Breakdown" android:textSize="18sp"
+                android:textStyle="bold" android:textColor="@color/text_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Transport row -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="24dp" android:layout_height="wrap_content" android:text="🚗"/>
+                <TextView android:layout_width="80dp" android:layout_height="wrap_content"
+                    android:text="Transport" android:textColor="@color/text_secondary" android:textSize="13sp"
+                    android:layout_marginStart="6dp"/>
+                <ProgressBar android:id="@+id/progressTransport"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp" android:layout_height="10dp"
+                    android:layout_weight="1" android:progressTint="@color/secondary_blue"/>
+                <TextView android:id="@+id/tvTransportEmissions"
+                    android:layout_width="70dp" android:layout_height="wrap_content"
+                    android:gravity="end" android:text="—" android:textColor="@color/secondary_blue"
+                    android:textSize="12sp" android:textStyle="bold" android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <!-- Home row -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="24dp" android:layout_height="wrap_content" android:text="🏠"/>
+                <TextView android:layout_width="80dp" android:layout_height="wrap_content"
+                    android:text="Home" android:textColor="@color/text_secondary" android:textSize="13sp"
+                    android:layout_marginStart="6dp"/>
+                <ProgressBar android:id="@+id/progressHome"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp" android:layout_height="10dp"
+                    android:layout_weight="1" android:progressTint="@color/difficulty_expert"/>
+                <TextView android:id="@+id/tvHomeEmissions"
+                    android:layout_width="70dp" android:layout_height="wrap_content"
+                    android:gravity="end" android:text="—" android:textColor="@color/difficulty_expert"
+                    android:textSize="12sp" android:textStyle="bold" android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <!-- Waste row -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="16dp">
+                <TextView android:layout_width="24dp" android:layout_height="wrap_content" android:text="♻️"/>
+                <TextView android:layout_width="80dp" android:layout_height="wrap_content"
+                    android:text="Waste" android:textColor="@color/text_secondary" android:textSize="13sp"
+                    android:layout_marginStart="6dp"/>
+                <ProgressBar android:id="@+id/progressWaste"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp" android:layout_height="10dp"
+                    android:layout_weight="1" android:progressTint="@color/correct_green"/>
+                <TextView android:id="@+id/tvWasteEmissions"
+                    android:layout_width="70dp" android:layout_height="wrap_content"
+                    android:gravity="end" android:text="—" android:textColor="@color/correct_green"
+                    android:textSize="12sp" android:textStyle="bold" android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <!-- Tips -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="💡 Your Personalised Tips" android:textSize="18sp"
+                android:textStyle="bold" android:textColor="@color/text_primary"
+                android:layout_marginBottom="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTips"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+
+            <!-- Action buttons -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShareResult"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:layout_marginTop="20dp"
+                android:text="📤 Share My Result"
+                app:backgroundTint="@color/secondary_blue"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRecalculate"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:layout_marginTop="8dp" android:layout_marginBottom="24dp"
+                android:text="🔄 Recalculate"
+                app:strokeColor="@color/primary_green"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

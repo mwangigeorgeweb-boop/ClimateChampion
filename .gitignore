@@ -1,0 +1,8 @@
+ClimateChampionFull/serviceAccountKey.json
+node_modules/
+*.hprof
+node_modules/
+.gradle/
+build/
+.idea/
+local.properties

@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_step_home_energy.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_step_home_energy.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_item_video.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/item_video.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/color_bottom_nav_selector.xml.flat",
+        "source": "com.climatechampion.app-main-64:/color/bottom_nav_selector.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_step_transport.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_step_transport.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_item_leaderboard.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/item_leaderboard.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_home.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/navigation_nav_graph.xml.flat",
+        "source": "com.climatechampion.app-main-64:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_retry.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_retry.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_carbon_result.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_carbon_result.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_earth.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_earth.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_trophy.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_trophy.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/anim_slide_in_left.xml.flat",
+        "source": "com.climatechampion.app-main-64:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_carbon_calculator.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_carbon_calculator.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/anim_slide_out_right.xml.flat",
+        "source": "com.climatechampion.app-main-64:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_topic_placeholder.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_topic_placeholder.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_quiz_result.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_quiz_result.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_book.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_video_player.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_video_player.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_item_subtopic.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/item_subtopic.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_calculator.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_calculator.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_item_topic.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/item_topic.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_video.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_video.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_quiz.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_quiz.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_topic_list.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_topic_list.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_activity_splash.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/anim_slide_out_left.xml.flat",
+        "source": "com.climatechampion.app-main-64:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_activity_login.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.climatechampion.app-main-64:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/anim_slide_up.xml.flat",
+        "source": "com.climatechampion.app-main-64:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_topic_detail.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_topic_detail.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/anim_fade_in_scale.xml.flat",
+        "source": "com.climatechampion.app-main-64:/anim/fade_in_scale.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_activity_register.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_item_carbon_tip.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/item_carbon_tip.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_video_placeholder.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_video_placeholder.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_video_list.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_video_list.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_leaderboard.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_leaderboard.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_profile_placeholder.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_profile_placeholder.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_person.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_expand_less.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_expand_less.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_expand_more.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_expand_more.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_home.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_leaderboard.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_leaderboard.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_bg_chip_outline.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/bg_chip_outline.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_profile.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.climatechampion.app-main-64:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_check_circle.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/anim_slide_in_right.xml.flat",
+        "source": "com.climatechampion.app-main-64:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_ic_google.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_bg_grade_circle.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/bg_grade_circle.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/drawable_bg_chip.xml.flat",
+        "source": "com.climatechampion.app-main-64:/drawable/bg_chip.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_fragment_step_waste.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/fragment_step_waste.xml"
+    },
+    {
+        "merged": "com.climatechampion.app-merged_res-62:/layout_activity_main.xml.flat",
+        "source": "com.climatechampion.app-main-64:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp">
+
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="#1"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_profile_placeholder" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Champion Name"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvLevelEmoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌱"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="Beginner"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1,250"
+        android:textColor="@color/primary_green"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

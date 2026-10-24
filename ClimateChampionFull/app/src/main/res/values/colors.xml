@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="primary_green_light">#A5D6A7</color>
+    <color name="secondary_blue">#1565C0</color>
+    <color name="secondary_blue_light">#90CAF9</color>
+
+    <!-- UI -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+
+    <!-- Quiz feedback -->
+    <color name="correct_green">#388E3C</color>
+    <color name="incorrect_red">#D32F2F</color>
+    <color name="option_default">#FFFFFF</color>
+    <color name="quiz_option_selected">#BBDEFB</color>
+
+    <!-- Difficulty badges -->
+    <color name="difficulty_beginner">#43A047</color>
+    <color name="difficulty_intermediate">#FB8C00</color>
+    <color name="difficulty_expert">#E53935</color>
+
+    <!-- Leaderboard ranks -->
+    <color name="rank_gold">#FFD700</color>
+    <color name="rank_silver">#C0C0C0</color>
+    <color name="rank_bronze">#CD7F32</color>
+
+    <!-- Current user highlight in leaderboard -->
+    <color name="highlight_user">#E8F5E9</color>
+</resources>

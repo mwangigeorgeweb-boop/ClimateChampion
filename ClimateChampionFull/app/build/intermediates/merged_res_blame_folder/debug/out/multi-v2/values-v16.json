@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.climatechampion.app-mergeDebugResources-60:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.14.5\\transforms\\2cb9c88c27238c7c2572326982a353c8\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.14.5\\transforms\\e5fee8c90051e917810b785325222964\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

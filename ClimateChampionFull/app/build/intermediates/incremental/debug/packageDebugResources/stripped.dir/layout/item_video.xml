@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <ImageView
+                android:id="@+id/ivThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_video_placeholder" />
+
+            <TextView
+                android:id="@+id/tvDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="6dp"
+                android:background="#CC000000"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                android:text="05:00"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/ivWatchedBadge"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="6dp"
+                android:src="@drawable/ic_check_circle"
+                android:tint="@color/correct_green"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvDurationWarning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_margin="6dp"
+                android:background="#CCFF5722"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                android:text="Short"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="Video Title"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="+30 pts"
+                android:textColor="@color/primary_green"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

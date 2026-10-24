@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://climate-champion-full-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">65824555436</string>
+    <string name="google_api_key" translatable="false">AIzaSyAM4qhbKinMPtDaPbo8zw7lhbqWkS5pDkI</string>
+    <string name="google_app_id" translatable="false">1:65824555436:android:184b785e0bd49e7aabba09</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAM4qhbKinMPtDaPbo8zw7lhbqWkS5pDkI</string>
+    <string name="google_storage_bucket" translatable="false">climate-champion-full.firebasestorage.app</string>
+    <string name="project_id" translatable="false">climate-champion-full</string>
+</resources>

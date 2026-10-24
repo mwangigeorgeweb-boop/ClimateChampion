@@ -1,0 +1,49 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Public app content: Topics, Quizzes, Videos
+    // Anyone can read, only admin console can write
+    match /topics/{topicId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /quizzes/{quizId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /videos/{videoId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Leaderboard entries: Signed-in users can read, users can update their own rank
+    match /leaderboard/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId);
+    }
+
+    // User Profiles: Users can only read and write their own data
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId);
+
+      // User Subcollections (e.g., progress, completed quizzes)
+      match /{subcollection=**} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+  }
+}

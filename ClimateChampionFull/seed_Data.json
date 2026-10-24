@@ -1,0 +1,1545 @@
+{
+  "topics": [
+    {
+      "topicId": "topic_01",
+      "title": "Carbon Footprint & Lifecycle Assessment (LCA)",
+      "description": "Master's-level greenhouse gas accounting and industrial ecology framework. Covers Scope 1-3 GHG Protocol boundaries, ISO 14040/44 life cycle inventory (LCI) and impact assessment (LCIA), process-based vs Economic Input-Output (EIO) LCA models, and stochastic uncertainty analysis in corporate value chains.",
+      "category": "Carbon Accounting",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 1,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_01_1",
+          "title": "Module 1: GHG Protocol Scopes & Boundary Delimitation",
+          "summary": "Deep dive into Scope 1 direct combustion, Scope 2 dual-reporting accounting, and Scope 3 value chain categorization.",
+          "content": "Corporate climate accounting under the Greenhouse Gas (GHG) Protocol Corporate Value Chain Standard requires rigorous boundary definition. Scope 1 encompasses direct fugitive and stationary emissions occurring from sources owned or controlled by the reporting entity, such as onsite chemical reactors, boilers, and internal transport fleets. Scope 2 accounts for indirect emissions associated with purchased electricity, steam, heating, and cooling; it mandates dual-reporting using both location-based emission factors (reflecting local grid average carbon intensity) and market-based emission factors (reflecting contractual instruments such as Power Purchase Agreements [PPAs], Guarantees of Origin [GOs], and Renewable Energy Certificates [RECs]). Scope 3 encompasses 15 upstream and downstream categories across the supply chain. Upstream categories evaluate purchased goods and services (Category 1), capital goods (Category 2), fuel- and energy-related activities (Category 3), and upstream transportation (Category 4). Downstream categories account for processing of sold products (Category 10), use phase emissions of sold products (Category 11), and end-of-life treatment of sold products (Category 12). Precise boundary selection utilizes the operational control, financial control, or equity share approaches to prevent double-counting across multi-national corporate holding structures.",
+          "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=640"
+        },
+        {
+          "subtopicId": "sub_01_2",
+          "title": "Module 2: ISO 14040/44 Lifecycle Assessment Methodology",
+          "summary": "Step-by-step examination of Goal & Scope, LCI data compilation, LCIA characterization factors, and interpretation.",
+          "content": "Life Cycle Assessment (LCA) provides a standardized quantitative methodology under ISO 14040 and ISO 14044 to evaluate environmental burdens across the full life cycle of a product, process, or service. Phase 1 (Goal and Scope Definition) establishes the functional unit—the reference metric against which all input and output flows are normalized (e.g., 1 kWh of delivered low-voltage electricity or 1 metric ton of primary steel produced). It also defines system boundaries: Cradle-to-Grave (raw material extraction to disposal), Cradle-to-Gate (extraction to factory gate), or Cradle-to-Cradle (closed-loop circular recovery). Phase 2 (Life Cycle Inventory - LCI) compiles physical mass and energy balances, tracking raw material inputs, water consumption, atmospheric emissions, aquatic discharges, and solid waste flows across hundreds of unit operations. Phase 3 (Life Cycle Impact Assessment - LCIA) converts LCI elementary flows into environmental impact indicators using characterization models like ReCiPe, CML, or TRACI. Impact categories include Global Warming Potential (GWP100 in kg CO2e), Acidification Potential (kg SO2e), Eutrophication Potential (kg PO4e), Photochemical Ozone Creation Potential (kg ethylene e), and Stratospheric Ozone Depletion (kg CFC-11e). Phase 4 (Interpretation) applies sensitivity analysis and contribution analysis to identify hotspot processes and evaluate data quality indicators (e.g., temporal, geographical, and technological representativeness).",
+          "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=640"
+        },
+        {
+          "subtopicId": "sub_01_3",
+          "title": "Module 3: Process-Based vs Economic Input-Output (EIO) LCA",
+          "summary": "Comparative matrix analysis of bottom-up physical process trees against top-down econometric input-output models.",
+          "content": "Quantifying life cycle impacts requires selecting between process-based LCA, Economic Input-Output LCA (EIO-LCA), or hybrid methodologies. Process-based LCA constructs a detailed, bottom-up process tree tracking physical energy and material inputs at every discrete manufacturing step. While offering high technological specificity and precision, process LCA suffers from boundary truncation errors—often omitting secondary and tertiary supply chain tiers (e.g., maintenance of capital equipment or financial auditing services) due to data collection limits, underestimating total footprint impacts by 10% to 50%. Conversely, EIO-LCA utilizes top-down national economic input-output matrices (such as the US Bureau of Economic Analysis matrices or EXIOBASE) to model monetary transactions across hundreds of industrial sectors using Leontief inverse matrices: X = (I - A)^(-1) * F, where X is total sector output, A is the direct requirements matrix, I is the identity matrix, and F is final demand. EIO-LCA eliminates boundary truncation by mapping the entire macroeconomy, but introduces aggregation errors (combining disparate product types into single industrial sectors) and price volatility biases. Advanced research employs Hybrid LCA frameworks: Tiered Hybrid LCA couples bottom-up process data for key primary tiers with top-down EIO data for extended supply chain tiers, maximizing both specificity and completeness.",
+          "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640"
+        },
+        {
+          "subtopicId": "sub_01_4",
+          "title": "Module 4: Stochastic Uncertainty Analysis & Product Carbon Footprints (PCF)",
+          "summary": "Implementation of Monte Carlo simulations, emission factor database integration, and ISO 14067 compliance.",
+          "content": "Developing a certified Product Carbon Footprint (PCF) under ISO 14067 or PAS 2050 demands rigorous quantification of statistical uncertainty. Primary data gathered from factory operations (e.g., sub-metered natural gas combustion or electricity sub-metering) must be integrated with secondary emission factor databases such as Ecoinvent, ecoinvent v3.9, US LCI, or DEFRA. Because primary supplier data and secondary database factors contain inherent variances, deterministic point estimates are insufficient for Master's-level research. Stochastic uncertainty analysis employs Monte Carlo simulation algorithms, drawing thousands of randomized iterations from lognormal or Weibull probability density functions assigned to individual LCI input parameters. This yields standard deviations, 95% confidence intervals, and probability distributions for the total PCF metric. Advanced PCF models incorporate data quality rating (DQR) matrices evaluating data precision, completeness, representativeness, consistency, and reproducibility. Uncovering statistical variance allows researchers to perform Sobol sensitivity analysis, identifying whether product footprint variance is driven by primary electricity grid fluctuations, upstream transport logistics, or raw material extraction purity.",
+          "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_02",
+      "title": "Renewable Energy Integration & Grid Stability",
+      "description": "Technical analysis of high-penetration renewable power systems. Focuses on semiconductor photovoltaic physics, wind turbine aerodynamic efficiency (Betz Limit), grid inertia loss, voltage/frequency regulation, and utility-scale Battery Energy Storage Systems (BESS).",
+      "category": "Energy Systems",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1509391365360-2e959784a276?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 2,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_02_1",
+          "title": "Module 1: Photovoltaic Physics, Energetics & MPPT Control",
+          "summary": "Semiconductor bandgap energetics, p-n junction charge carrier dynamics, and Maximum Power Point Tracking algorithms.",
+          "content": "Crystalline silicon solar cells operate through the photovoltaic effect within semiconductor p-n junctions. When incident photons possess energy exceeding the silicon bandgap (Eg ≈ 1.12 eV at 300 K), they excite valence band electrons across the bandgap into the conduction band, generating electron-hole pairs. The built-in electric field across the depletion region separates these charge carriers, creating a photovoltage and driving current through an external load. The Current-Voltage (I-V) characteristic of a solar cell is modeled by the single-diode equation: I = I_ph - I_0 * [exp(q(V + I*R_s) / (n*k*T)) - 1] - (V + I*R_s) / R_sh, where I_ph is photogenerated current, I_0 is reverse saturation current, R_s is series resistance, R_sh is shunt resistance, n is the diode ideality factor, and k is Boltzmann's constant. Because ambient solar irradiance and module temperature constantly fluctuate, inverters employ Maximum Power Point Tracking (MPPT) algorithms—such as Perturb & Observe (P&O) or Incremental Conductance—to continuously adjust the operating voltage to the knee of the P-V curve where maximum power (P_max) is produced. Advanced multi-junction tandem solar cells (e.g., Perovskite-on-Silicon) stack materials with complementary bandgaps (1.7 eV top cell, 1.1 eV bottom cell) to exceed the Shockley-Queisser efficiency limit of 33.7% for single-junction cells.",
+          "imageUrl": "https://images.unsplash.com/photo-1508791223939-255018a14d56?w=640"
+        },
+        {
+          "subtopicId": "sub_02_2",
+          "title": "Module 2: Aerodynamics of Wind Turbines & Betz's Law",
+          "summary": "Fluid mechanics of wind energy extraction, rotor blade pitch dynamics, and structural aerodynamic limits.",
+          "content": "Wind energy conversion relies on lift-driven aerodynamic forces acting on airfoils. As atmospheric airflow passes across a turbine blade, differential pressure between the upper suction surface and lower pressure surface generates aerodynamic lift perpendicular to the relative wind vector. According to Betz's Law, derived from 1D momentum theory applying the conservation of mass, momentum, and energy across an ideal actuator disc, the maximum theoretical power coefficient (Cp) achievable by an unheated open wind rotor is 16/27 (≈ 59.3%). Power extracted is calculated by: P = 0.5 * rho * A * v^3 * Cp, where rho is air density, A is rotor swept area (pi * r^2), and v is upstream wind speed. Notice that power scales with the cube of wind speed; thus, small increases in velocity yield substantial power increases. Modern utility-scale wind turbines utilize active blade pitch control to adjust the angle of attack in real-time. Below rated wind speed, pitch systems optimize aerodynamic performance; above rated wind speed, blades feather out of the wind to spill excess power, maintaining constant mechanical output and preventing structural fatigue loads on the gearbox, main bearing, and tower shaft.",
+          "imageUrl": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=640"
+        },
+        {
+          "subtopicId": "sub_02_3",
+          "title": "Module 3: Grid Dynamics, Inertia Loss & Fast Frequency Response",
+          "summary": "Consequences of replacing synchronous thermal generators with inverter-based resources on grid frequency stability.",
+          "content": "Legacy power grids rely on massive spinning rotors of thermal, hydro, and nuclear synchronous generators. These rotating masses store mechanical kinetic energy that provides natural physical inertia (H constant in seconds). When a sudden power imbalance occurs (e.g., an unexpected trip at a 1 GW nuclear station), this stored kinetic energy immediately feeds into or absorbs power from the grid, slowing the Rate of Change of Frequency (RoCoF = df/dt) and giving governor controls seconds to respond. Replacing synchronous plants with Inverter-Based Resources (IBRs)—such as solar PV and wind farms—decouples physical generation from grid frequency via power electronics, dramatically reducing total system inertia. In low-inertia grids, a minor load-generation imbalance causes rapid, steep frequency deviations that threaten widespread under-frequency load shedding (UFLS) or catastrophic cascading blackouts. To stabilize high-penetration renewable grids, system operators mandate Synthetic Inertia and Grid-Forming Inverters (GFMIs). Unlike traditional Grid-Following Inverters (GFLIs) that rely on a Phase-Locked Loop (PLL) to track grid voltage, GFMIs act as voltage sources behind impedance, injecting fast frequency response (FFR) within milliseconds using onboard battery energy storage.",
+          "imageUrl": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=640"
+        },
+        {
+          "subtopicId": "sub_02_4",
+          "title": "Module 4: BESS Architecture, Microgrids & Virtual Power Plants",
+          "summary": "Electrochemical energy storage degradation, duck curve ramp management, and VPP aggregation control.",
+          "content": "High solar adoption induces the 'Duck Curve' phenomenon: steep midday net-load troughs followed by extreme evening ramp rates (e.g., ramping 15,000 MW over 3 hours as solar falls off while evening residential load peaks). Utility-scale Battery Energy Storage Systems (BESS)—predominantly Lithium Iron Phosphate (LiFePO4 / LFP) due to thermal stability and long cycle life—mitigate this mismatch by performing energy arbitrage (charging during negative/low midday prices and discharging during peak evening demand). BESS units are managed by advanced Battery Management Systems (BMS) that monitor State of Charge (SoC), State of Health (SoH), cell temperature distribution, and balance individual cell voltages to prevent thermal runaway. Furthermore, Virtual Power Plants (VPPs) deploy cloud-based supervisory control and data acquisition (SCADA) algorithms to aggregate thousands of distributed energy resources (DERs)—including residential rooftop PV, home batteries, smart water heaters, and bidirectional Electric Vehicle (V2G) chargers. VPPs operate as dispatchable, aggregated power nodes that participate directly in wholesale capacity, frequency regulation, and spinning reserve ancillary service markets.",
+          "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_03",
+      "title": "Forest Ecology, Carbon Stocks & REDD+",
+      "description": "Quantifying terrestrial carbon pools in tropical and boreal forest biomes. Examines photosynthetic carbon flux, satellite Remote Sensing (LiDAR/SAR) biomass estimation, forest degradation, and market mechanisms under UN-REDD+ policy frameworks.",
+      "category": "Forests & Land Use",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1511497584788-8767611136f6?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 3,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_03_1",
+          "title": "Module 1: Terrestrial Carbon Pools & Allometric Biomass Modeling",
+          "summary": "Quantifying aboveground biomass, belowground root systems, soil organic carbon, and dead wood pools.",
+          "content": "Forest biomes contain five primary carbon pools defined by the IPCC: Above-Ground Biomass (AGB), Below-Ground Biomass (BGB), Dead Wood, Litter, and Soil Organic Carbon (SOC). AGB comprises tree stems, branches, bark, and foliage, sequestering atmospheric CO2 via Calvin-cycle photosynthetic fixation. Quantifying AGB at sample plot scales utilizes destructive or non-destructive allometric equations. Standard destructive regression equations model biomass (AGB in kg) as a function of field-measured parameters: AGB = a * (DBH^b) * (H^c) * (rho^d), where DBH is tree Diameter at Breast Height (1.3 m), H is total tree height, rho is species-specific wood basic density (g/cm^3), and a, b, c, d are empirically fitted parameters. Below-ground biomass (BGB) is commonly estimated using root-to-shoot ratios (R:S), which vary from 0.20 in dense tropical rainforests to 0.50 in arid scrublands. Soil Organic Carbon (SOC) down to 1-meter depth represents the largest terrestrial carbon store in boreal and peatland forest ecosystems, where cold, anaerobic conditions retard microbial decomposition rates.",
+          "imageUrl": "https://images.unsplash.com/photo-1516214104703-d870798883c5?w=640"
+        },
+        {
+          "subtopicId": "sub_03_2",
+          "title": "Module 2: Spaceborne Remote Sensing of Biomass (LiDAR & SAR)",
+          "summary": "Mapping vertical canopy profiles and biomass density using GEDI LiDAR and Synthetic Aperture Radar.",
+          "content": "Field plot sampling cannot capture spatial biomass heterogeneity over regional or continental scales. Remote sensing bridges this scale gap using active satellite sensors. NASA's Global Ecosystem Dynamics Investigation (GEDI) spaceborne LiDAR, mounted on the International Space Station, fires 1064 nm laser pulses to measure vertical forest canopy structure. By timing returning photon wavelets, GEDI reconstructs relative height metrics (e.g., RH98, representing 98% energy return height corresponding to canopy top height). These canopy height profiles map directly into AGB estimations. Complementing LiDAR, Synthetic Aperture Radar (SAR) sensors—such as ESA's BIOMASS mission operating in P-band (~435 MHz, ~70 cm wavelength) and NISAR operating in L-band (~1.25 GHz, ~24 cm wavelength)—transmit microwave pulses that penetrate foliage canopies to interact directly with large trunks and primary structural branches. The backscatter intensity (e.g., HV cross-polarization) correlates strongly with woody biomass volume up to high saturation thresholds (~150 t/ha for L-band, >300 t/ha for P-band).",
+          "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=640"
+        },
+        {
+          "subtopicId": "sub_03_3",
+          "title": "Module 3: UN-REDD+ Integrity: Additionality, Leakage & Baselines",
+          "summary": "Policy mechanics for generating verifiable forest carbon offsets under international UNFCCC rules.",
+          "content": "The United Nations REDD+ (Reducing Emissions from Deforestation and Forest Degradation) policy mechanism creates financial incentives for developing nations to preserve standing forests. Credible forest carbon offsets under Verra (VCS) or ART TREES require strict adherence to three core carbon accounting criteria. First, Forest Reference Emission Levels (FREL) must be established using historical spatial deforestation data over 5 to 10 year reference periods to benchmark business-as-usual (BAU) carbon loss. Second, Additionality must be demonstrated: project developers must prove that forest conservation efforts would not have occurred without carbon credit financing, passing financial, regulatory, and common-practice additionality tests. Third, Leakage must be quantified and deducted. Leakage occurs when land-use pressure (e.g., cattle ranching or timber extraction) is displaced from a protected project area to adjacent unprotected forests. Internal leakage is managed via regional buffer zones, while external market leakage is offset by holding 10% to 30% of generated credits in pooled risk buffer accounts.",
+          "imageUrl": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=640"
+        },
+        {
+          "subtopicId": "sub_03_4",
+          "title": "Module 4: Tropical Flux vs Boreal Peatland Degradation",
+          "summary": "Contrasting carbon dynamics between tropical rainforest canopy throughput and boreal peatland carbon vaults.",
+          "content": "Tropical rainforests (e.g., the Amazon and Congo basins) act as rapid, high-throughput carbon engines. They account for high gross primary productivity (GPP) through continuous photosynthesis, but also experience high autotrophic and heterotrophic respiration rates driven by warm, moist microclimates. Climate change threatens tropical forests through severe droughts that reduce canopy transpiration, causing tree mortality, canopy dieback, and turning rainforest sinks into net carbon sources. Conversely, boreal forest biomes (e.g., Canadian and Siberian taiga) store up to 80% of their total carbon underground within deep permafrost and waterlogged peatland soils. Peat accumulates over millennia as Sphagnum mosses decay slowly under anoxic, water-saturated conditions. Global warming thaws permafrost and dries peatlands, exposing ancient organic matter to aerobic microbial decomposition. This triggers severe peat fires that smolder underground for months, releasing gigatons of stored fossil-age carbon dioxide and methane into the atmosphere.",
+          "imageUrl": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_04",
+      "title": "Ocean Acidification & Marine Carbonate Chemistry",
+      "description": "Comprehensive analysis of dissolved inorganic carbon equilibrium, seawater pH decline, and aragonite/calcite saturation states. Investigates ocean warming synergies, marine heatwaves, and biological impacts on calcifying marine taxa.",
+      "category": "Oceanography",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 4,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_04_1",
+          "title": "Module 1: Inorganic Carbon Equilibrium Dynamics in Seawater",
+          "summary": "Mathematical equilibrium of aqueous CO2, carbonic acid dissociation, and hydrogen ion accumulation.",
+          "content": "World oceans have absorbed approximately 25-30% of anthropogenic CO2 emissions since the industrial revolution. When atmospheric CO2 dissolves across the air-sea boundary, it establishes a multi-step chemical equilibrium in seawater: (1) CO2(g) <=> CO2(aq); (2) CO2(aq) + H2O <=> H2CO3 (carbonic acid); (3) H2CO3 <=> H+ + HCO3- (bicarbonate ion); (4) HCO3- <=> H+ + CO3(2-) (carbonate ion). The release of free hydrogen ions (H+) directly reduces seawater pH: pH = -log10[H+]. Surface ocean pH has already dropped from a pre-industrial value of ~8.25 to ~8.14 today—a ~0.11 unit decrease representing an approximately 30% increase in hydrogen ion concentration due to the logarithmic nature of the pH scale. To buffer these excess H+ ions, seawater reacts with available carbonate ions: H+ + CO3(2-) -> HCO3-. Consequently, as dissolved inorganic carbon (DIC = [CO2*] + [HCO3-] + [CO3(2-)]) increases, the concentration of free carbonate ions (CO3 2-) plummets, removing the essential structural precursor required by calcifying marine organisms.",
+          "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=640"
+        },
+        {
+          "subtopicId": "sub_04_2",
+          "title": "Module 2: Saturation States (Omega Aragonite/Calcite) & Calcification",
+          "summary": "Thermodynamics of calcium carbonate dissolution and biomineralization thresholds in calcifiers.",
+          "content": "Calcifying marine organisms—such as scleractinian reef-building corals, coccolithophores, pteropods, and bivalves—build their shells and skeletons out of calcium carbonate: Ca(2+) + CO3(2-) -> CaCO3. Calcium carbonate biomineralization depends on the saturation state (Omega) of seawater, defined as: Omega = ([Ca(2+)] * [CO3(2-)]) / K'_sp, where K'_sp is the apparent stoichiometric solubility product of CaCO3 at a given temperature, salinity, and hydrostatic pressure. Calcium carbonate exists primarily in two biogenic mineral forms: Calcite (less soluble, used by coccolithophores and sea urchins) and Aragonite (more soluble, used by corals and pteropods). When Omega > 1.0, seawater is supersaturated with respect to the mineral phase, favoring calcification and shell growth. When Omega < 1.0, seawater becomes undersaturated and corrosive, causing solid shell structures to dissolve. As rising atmospheric CO2 depletes surface ocean [CO3 2-], the saturation horizon (where Omega = 1.0) shoals toward the ocean surface. Pteropods ('sea butterflies') exposed to Omega_aragonite < 1.0 suffer rapid shell pitting and dissolution within weeks, threatening polar marine food webs.",
+          "imageUrl": "https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=640"
+        },
+        {
+          "subtopicId": "sub_04_3",
+          "title": "Module 3: Ocean Carbon Dioxide Removal (oCDR) Techniques",
+          "summary": "Chemical engineering principles of Ocean Alkalinity Enhancement (OAE) and Direct Ocean Capture.",
+          "content": "Mitigating ocean acidification while drawing down atmospheric CO2 has spurred research into Ocean Carbon Dioxide Removal (oCDR). Ocean Alkalinity Enhancement (OAE) aims to accelerate natural rock weathering by spreading alkaline minerals—such as finely ground olivine (silicate, Mg2SiO4), brucite (Mg(OH)2), or quicklime (CaO)—into surface ocean waters. The chemical reaction neutralizes excess hydrogen ions: Mg2SiO4 + 4 CO2 + 4 H2O -> 2 Mg(2+) + 4 HCO3- + H4SiO4. By increasing Total Alkalinity (TA = [HCO3-] + 2[CO3(2-)] + [B(OH)4-] + ...), OAE shifts the carbon equilibrium away from aqueous CO2 and carbonic acid toward bicarbonate ions, effectively de-acidifying localized surface waters and driving further atmospheric CO2 absorption. Alternatively, Direct Ocean Capture (DOC) employs electrodialysis cells featuring bipolar membranes to strip CO2 gas out of seawater streams, returning decarbonated seawater back to the ocean to absorb fresh atmospheric CO2.",
+          "imageUrl": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=640"
+        },
+        {
+          "subtopicId": "sub_04_4",
+          "title": "Module 4: Synergistic Impacts: Ocean Warming, Deoxygenation & Heatwaves",
+          "summary": "The compounding triple threat of thermal stress, ocean acidification, and expanding oxygen minimum zones.",
+          "content": "Ocean acidification does not occur in isolation; it interacts synergistically with global ocean warming and ocean deoxygenation. Rising sea surface temperatures increase water column stratification, inhibiting vertical mixing and upwelling of nutrient-rich deep waters. Warm water reduced gas solubility directly decreases dissolved oxygen (O2) concentrations, expanding mid-water Oxygen Minimum Zones (OMZs). Simultaneously, Marine Heatwaves (MHWs)—prolonged discrete thermal anomalies—trigger severe coral bleaching events by disrupting the mutualistic endosymbiosis between coral animal hosts and their photosynthetic zooxanthellae dinoflagellates (Symbiodiniaceae). When thermally stressed corals bleach, exposure to acidifying, low-Omega seawater accelerates structural bioerosion of the underlying calcium carbonate reef matrix, preventing recovery and leading to ecosystem collapse.",
+          "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_05",
+      "title": "Global Climate Policy, Carbon Markets & Economics",
+      "description": "Rigorous evaluation of international climate agreements (UNFCCC, Paris Agreement Article 6), compliance vs voluntary carbon markets, Carbon Border Adjustment Mechanisms (CBAM), Social Cost of Carbon (SCC), and discount rate dynamics.",
+      "category": "Policy & Economics",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 5,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_05_1",
+          "title": "Module 1: Article 6 of the Paris Agreement & ITMO Carbon Trading",
+          "summary": "Mechanics of bilateral cooperative approaches under Article 6.2 and centralized crediting under Article 6.4.",
+          "content": "Article 6 of the 2015 Paris Agreement defines international market mechanisms for transferring greenhouse gas emission reductions. Article 6.2 governs bilateral or multilateral cooperative approaches, enabling country pairs to trade carbon mitigation outcomes termed Internationally Transferred Mitigation Outcomes (ITMOs). To protect market integrity and prevent double-counting of emission reductions toward Nationally Determined Contributions (NDCs), Article 6 mandates 'Corresponding Adjustments'. When Country A transfers an ITMO credit generated within its borders to Country B, Country A must add that emission quantity back to its national greenhouse gas inventory ledger, while Country B subtracts the equivalent amount. Article 6.4 establishes a centralized, UN-supervised crediting mechanism replacing the Kyoto Protocol's Clean Development Mechanism (CDM). Article 6.4 mandates a 5% levy on generated credits to fund the Adaptation Fund for vulnerable developing nations, along with a 2% baseline cancellation of credits to ensure a net Overall Mitigation in Global Emissions (OMGE).",
+          "imageUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=640"
+        },
+        {
+          "subtopicId": "sub_05_2",
+          "title": "Module 2: Compliance Markets (ETS) vs Carbon Taxes",
+          "summary": "Price discovery in cap-and-trade systems versus fixed price tax regulation frameworks.",
+          "content": "Governments internalize environmental externalities through carbon pricing using two main policy instruments: quantity-based systems (Emissions Trading Schemes [ETS] / Cap-and-Trade) and price-based systems (Carbon Taxes). An ETS (exemplified by the EU ETS or California Cap-and-Trade) establishes a firm, declining cap on total allowable greenhouse gas emissions for covered industrial sectors. Compliance entities are issued or must purchase carbon allowances (EUA), where 1 EUA = 1 metric ton of CO2e. The carbon allowance market determines the marginal abatement cost through supply-demand price discovery. Companies with abatement costs below the allowance market price reduce emissions and sell surplus allowances; entities with high abatement costs purchase allowances. Conversely, a Carbon Tax sets an explicit fixed tax rate per ton of emitted CO2e (e.g., $50/tCO2e), providing price certainty for long-term corporate capital planning, but leaving the total emission reduction volume uncertain. Hybrid market models incorporate price floors, cost-containment reserves, and offset usage limits to minimize market volatility.",
+          "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=640"
+        },
+        {
+          "subtopicId": "sub_05_3",
+          "title": "Module 3: Integrated Assessment Models (IAMs) & Social Cost of Carbon",
+          "summary": "Econometric formulation of the Social Cost of Carbon and Ramsey discount rate dynamics.",
+          "content": "The Social Cost of Carbon (SCC) calculates the net present monetary value of marginal climate damages resulting from emitting one additional metric ton of CO2 into the atmosphere. SCC estimations utilize Integrated Assessment Models (IAMs)—such as DICE (Dynamic Integrated Climate-Economy), PAGE, and FUND—which couple macroeconomic growth models with simplified climate-carbon cycle feedback equations. The value of the SCC is highly sensitive to the chosen social discount rate (r), modeled via the Ramsey equation: r = delta + eta * g, where delta is the pure rate of time preference, eta is the elasticity of marginal utility of consumption, and g is the consumption growth rate. Choosing a high discount rate (e.g., 5%) heavily discounts future economic damages occurring 50 to 100 years out, yielding a low present-day SCC (e.g., $15/tCO2e) and discouraging current mitigation expenditures. Selecting a low discount rate (e.g., 1.5% or declining discount rates) places high ethical value on protecting future generations, yielding a high SCC (e.g., $180+/tCO2e) that justifies immediate aggressive capital investment in clean energy.",
+          "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=640"
+        },
+        {
+          "subtopicId": "sub_05_4",
+          "title": "Module 4: Carbon Border Adjustment Mechanisms (CBAM) & Leakage",
+          "summary": "Policy mechanics of trade-related carbon pricing equalizers on heavy industrial imports.",
+          "content": "When a jurisdiction implements high domestic carbon pricing under an ETS, domestic energy-intensive, trade-exposed (EITE) industries—such as steel, aluminum, cement, fertilizers, and chemicals—face cost disadvantages against foreign competitors operating in countries without carbon pricing. This creates 'Carbon Leakage': companies relocate manufacturing offshore, transferring emissions abroad without achieving global mitigation. To counter carbon leakage while phasing out free allowance allocations, the European Union implemented the Carbon Border Adjustment Mechanism (CBAM). CBAM requires foreign exporters shipping covered industrial goods into the EU to purchase CBAM certificates matching the carbon price they would have paid under the EU ETS, minus any carbon price officially paid in the country of origin. CBAM aligns with World Trade Organization (WTO) non-discrimination rules under Article XX general exceptions, incentivizing trading partners worldwide to adopt domestic carbon pricing systems.",
+          "imageUrl": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_06",
+      "title": "Atmospheric Aerosols & Radiative Forcing",
+      "description": "Physicochemical properties of atmospheric particulate matter (PM2.5/PM10), aerosol-cloud interactions, tropospheric photochemical ozone production, and quantitative effective radiative forcing calculations.",
+      "category": "Atmospheric Science",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 6,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_06_1",
+          "title": "Module 1: Direct & Indirect Aerosol Radiative Forcing Mechanics",
+          "summary": "Scattering versus light-absorbing particulate optical properties and the Twomey cloud albedo effect.",
+          "content": "Atmospheric aerosols—fine liquid or solid particles suspended in air—exert complex forcing on Earth's radiative energy balance. Direct Aerosol Forcing involves scattering and absorption of solar shortwave radiation. Scattering aerosols (e.g., sulfates formed from SO2 emissions, sea salt, nitrate aerosols) reflect incoming solar radiation back into space, increasing planetary albedo and generating a net negative radiative forcing (cooling effect). Light-absorbing aerosols—primarily Black Carbon (soot) from incomplete fossil fuel and biomass combustion—absorb solar radiation directly within atmospheric layers, causing local atmospheric heating while dimming the surface. Indirect Aerosol Forcing alters cloud microphysics. Under the First Indirect Effect (Twomey Effect), an increase in aerosol concentration provides a higher density of Cloud Condensation Nuclei (CCN). For a fixed liquid water content, this spreads cloud water across a larger number of smaller cloud droplets, expanding cloud surface area and increasing cloud albedo (cooling). Under the Second Indirect Effect (Albrecht Effect), smaller cloud droplets suppress precipitation formation, extending cloud lifespan and cover.",
+          "imageUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=640"
+        },
+        {
+          "subtopicId": "sub_06_2",
+          "title": "Module 2: Photochemical Smog & Tropospheric Ozone Kinetics",
+          "summary": "VOC-NOx catalytic cycles, hydroxyl radical (OH) chemistry, and ground-level ozone formation.",
+          "content": "Tropospheric (ground-level) ozone is a powerful greenhouse gas and respiratory toxin. Unlike stratospheric ozone which absorbs harmful solar UV-C radiation, tropospheric ozone is a secondary pollutant produced via complex photochemical reactions involving primary precursors: Nitrogen Oxides (NOx = NO + NO2) and Volatile Organic Compounds (VOCs) in the presence of sunlight. The cycle begins with photolysis of NO2: NO2 + hv (lambda < 420 nm) -> NO + O((3)P), followed by O((3)P) + O2 + M -> O3 + M. However, in pristine air, O3 rapidly reacts with NO to regenerate NO2 (titration): O3 + NO -> NO2 + O2, yielding zero net ozone build-up. In polluted air containing VOCs or methane, oxidation by the hydroxyl radical (OH) produces peroxy radicals (RO2* or HO2*). These peroxy radicals convert NO to NO2 without consuming ozone: RO2* + NO -> RO* + NO2. This unbalances the photostationary state, driving high net tropospheric ozone accumulation. Ground-level ozone formation displays non-linear VOC-NOx sensitivities, exhibiting either NOx-saturated (VOC-limited) or NOx-limited reaction regimes.",
+          "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=640"
+        },
+        {
+          "subtopicId": "sub_06_3",
+          "title": "Module 3: PM2.5 Microphysics, Chemical Composition & Lifetimes",
+          "summary": "Size distribution dynamics, nucleation, secondary organic aerosol (SOA) formation, and atmospheric transport.",
+          "content": "Fine Particulate Matter (PM2.5, aerodynamic diameter <= 2.5 micrometers) comprises a heterogeneous mixture of primary emissions and secondary particulates formed via gas-to-particle conversion. PM2.5 size distributions are categorized into three modes: Nucleation Mode (diameter < 0.01 um, formed via homogeneous gas-phase condensation of low-volatility vapors like H2SO4), Accumulation Mode (0.1 um < diameter < 2.5 um, grown via coagulation and condensation), and Coarse Mode (2.5 um < diameter < 10 um, mechanically generated dust and sea spray). Accumulation mode PM2.5 particles possess the longest tropospheric lifetimes (days to weeks) because they are too large for rapid Brownian diffusion and too small for efficient gravitational settling. Consequently, PM2.5 undergoes transboundary transport across thousands of kilometers via jet streams. A major component of fine PM2.5 is Secondary Organic Aerosol (SOA), produced when biogenic volatile organic compounds (e.g., isoprene and monoterpenes emitted by forests) or anthropogenic hydrocarbons undergo atmospheric photo-oxidation, forming multi-functional, low-volatility organic molecules that condense onto pre-existing particles.",
+          "imageUrl": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=640"
+        },
+        {
+          "subtopicId": "sub_06_4",
+          "title": "Module 4: Solar Radiation Management (SRM) Geoengineering Risks",
+          "summary": "Evaluating Stratospheric Aerosol Injection (SAI) engineering, termination shock, and ozone depletion risks.",
+          "content": "Solar Radiation Management (SRM) geoengineering proposes intentionally altering Earth's radiation budget to offset greenhouse warming. The most widely studied technique is Stratospheric Aerosol Injection (SAI), which proposes injecting millions of tons of sulfur dioxide (SO2) precursor gas into the tropical stratosphere (18-25 km altitude) using specialized high-altitude aircraft. SO2 oxidizes into reflective sulfate aerosol particles (H2SO4-H2O droplets), mimicking the global cooling observed after major volcanic eruptions (e.g., the 1991 Mount Pinatubo eruption, which cooled global mean temperatures by ~0.5 °C for 18 months). However, SAI introduces severe global risks: (1) Regional Hydroclimate Disruption—reflecting sunlight alters monsoon circulation patterns, potentially causing severe droughts across South Asia and West Africa; (2) Stratospheric Chemistry Risks—sulfate aerosols provide surface area for heterogeneous chemical reactions that accelerate stratospheric ozone destruction; (3) Termination Shock—if an active, large-scale SAI program were abruptly halted (due to war or political instability), unmasked greenhouse forcing would drive rapid, unprecedented warming rates up to 10 times faster than current trends.",
+          "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_07",
+      "title": "Ecosystem Tipping Points & Biodiversity Loss",
+      "description": "Quantitative ecological modeling of ecosystem tipping points, habitat fragmentation thresholds, non-linear system collapse, functional biodiversity loss, and climate-driven biogeographical shifts.",
+      "category": "Ecological Science",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 7,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_07_1",
+          "title": "Module 1: Earth System Tipping Elements & Self-Reinforcing Feedbacks",
+          "summary": "Non-linear bifurcation theory applied to core Earth system components.",
+          "content": "Earth System Tipping Elements are sub-continental scale subsystems that can be pushed past critical thresholds (tipping points) by incremental global warming, shifting them into fundamentally altered, self-sustaining states. Key climate tipping elements include: (1) The Atlantic Meridional Overturning Circulation (AMOC)—freshening of North Atlantic surface waters from melting Greenland ice reduces sea surface density, threatening a collapse of deep water formation and North Atlantic heat transport; (2) The Amazon Rainforest—combined deforestation and climate-driven drought threaten to trigger widespread canopy dieback, transitioning the humid rainforest into a degraded savanna state; (3) Boreal Permafrost Thaw—abrupt thermokarst degradation exposes vast organic carbon pools to microbial decay, releasing massive methane and CO2 fluxes; (4) Polar Ice Sheet Collapse—Marine Ice Sheet Instability (MISI) along the West Antarctic Ice Sheet creates ungrounding retreat. Once a tipping threshold is crossed, self-reinforcing positive feedback loops sustain transition dynamics even if global atmospheric temperatures stabilize.",
+          "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=640"
+        },
+        {
+          "subtopicId": "sub_07_2",
+          "title": "Module 2: Ecological Resilience, Functional Redundancy & Services",
+          "summary": "Quantifying functional diversity indices, ecosystem resilience, and natural capital valuation.",
+          "content": "Ecological resilience, formulated by C.S. Holling, defines the capacity of an ecosystem to absorb environmental shocks and anthropogenic disturbances while retaining its core structural organization, feedback controls, and ecosystem functions. High resilience relies on Functional Biodiversity—the presence of diverse species that fulfill distinct ecological roles (e.g., primary producers, nitrogen fixers, apex predators, pollinators, and decomposers). Functional Redundancy occurs when multiple distinct species perform overlapping ecological functions within a community. If environmental stress or climate extremes eradicate a vulnerable species, redundant species step in to maintain ecosystem processes, preventing functional collapse. Losing functional diversity degrades key Ecosystem Services, categorized under the Millennium Ecosystem Assessment as: Provisioning Services (timber, freshwater, crop yields), Regulating Services (carbon sequestration, flood control, water purification), Supporting Services (nutrient cycling, soil formation), and Cultural Services.",
+          "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=640"
+        },
+        {
+          "subtopicId": "sub_07_3",
+          "title": "Module 3: Hysteresis & Alternative Stable States in Ecosystems",
+          "summary": "Bifurcation models, catastrophic regime shifts, and non-reversible recovery pathways.",
+          "content": "Non-linear ecosystem dynamics are modeled using fold bifurcation diagrams depicting Alternative Stable States. In these models, ecosystem state (e.g., coral cover or clear water clarity) is plotted against an environmental driver variable (e.g., sea surface temperature or nutrient loading). As environmental pressure increases, the ecosystem tracks a stable equilibrium branch until it reaches a critical saddle-node bifurcation point (tipping point). Beyond this point, the baseline state loses stability, causing an abrupt, catastrophic regime shift to a degraded alternative stable state (e.g., coral reef shifting to macroalgae dominance, or a clear freshwater lake collapsing into an anoxic, turbid cyanobacterial state). Reversing this collapse exhibits Hysteresis: reducing environmental stress back to the original tipping threshold does NOT restore the ecosystem. Restoration requires driving stress variables far below the initial tipping threshold to reach the lower bifurcation point where the ecosystem can jump back to its healthy baseline state.",
+          "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=640"
+        },
+        {
+          "subtopicId": "sub_07_4",
+          "title": "Module 4: Biogeographical Range Shifts & Phenological Mismatch",
+          "summary": "Velocity of climate change, poleward/elevation migration barriers, and trophic desynchronization.",
+          "content": "Climate change forces species to shift geographical distributions seeking thermal comfort zones. The Velocity of Climate Change (km/year) measures the rate at which isotherms move across landscapes. To survive, terrestrial species migrate poleward in latitude and upward in elevation. However, human infrastructure (cities, highway networks, agricultural monocultures) fragments natural landscapes, creating physical barriers that prevent successful dispersal. Species incapable of keeping pace with climate velocity suffer localized extirpations. Concurrently, warming temperatures induce Phenological Mismatches: desynchronization of seasonal life-cycle timing across interacting trophic levels. For example, migratory birds time spring migration based on photoperiod (day length), arriving at northern breeding grounds at historical calendar dates. However, warming temperatures cause insects (their primary food source) to emerge weeks earlier based on thermal degree-days. The resulting trophic mismatch leaves hatchlings without adequate caterpillar prey, driving severe avian population declines.",
+          "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_08",
+      "title": "Cryosphere Dynamics & Hydrological Security",
+      "description": "Impacts of warming temperatures on mountain glacier dynamics, polar ice sheet mass balance (GRACE satellite data), permafrost degradation methane emissions, and regional hydrological stress.",
+      "category": "Hydrology",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 8,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_08_1",
+          "title": "Module 1: Glacial Mass Balance & Peak Water Hydrology",
+          "summary": "Glacier mass balance mechanics, ablation dynamics, and downstream water resource tipping points.",
+          "content": "Mountain glaciers act as natural high-altitude freshwater towers, storing winter precipitation as ice and releasing meltwater during hot, dry summer seasons. Glacier health is evaluated through Mass Balance (B = Accumulation - Ablation). Accumulation occurs in high-elevation zones via snowfall and compaction into firn and glacial ice; Ablation occurs at lower elevations via surface melting, sublimation, and calving. Under sustained atmospheric warming, the Equilibrium Line Altitude (ELA)—the boundary where annual accumulation equals ablation—shifts to higher elevations, contracting total glacier volume. This alters basin hydrology following a characteristic 'Peak Water' curve. Initially, warming increases annual glacier runoff due to accelerated ice melting. Runoff increases until reaching 'Peak Water'—the point in time when total annual meltwater volume reaches its historical maximum. Past Peak Water, shrinking ice mass can no longer sustain elevated discharge, causing permanent, steep reductions in late-summer streamflow. This threatens agricultural irrigation, hydroelectric generation, and domestic drinking water supplies for billions across downstream basins in the Himalayas (Third Pole), Andes, and European Alps.",
+          "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=640"
+        },
+        {
+          "subtopicId": "sub_08_2",
+          "title": "Module 2: Permafrost Degradation & Thermokarst Methane Dynamics",
+          "summary": "Active layer deepening, microbial methanogenesis in thermokarst lakes, and organic carbon release.",
+          "content": "Permafrost—perennially frozen ground remaining at or below 0 °C for two or more consecutive years—underlies 24% of the Northern Hemisphere land surface, storing an estimated 1,400 to 1,600 gigatons of organic carbon (more than double the current atmospheric carbon stock). Warming air temperatures cause Active Layer Deepening—increasing the seasonal surface thaw depth every summer. When ice-rich permafrost thaws, the loss of structural ice support triggers ground subsidence, forming Thermokarst Lakes and thaw slumps. In saturated, waterlogged thermokarst lake bottoms, microbial decomposition of ancient soil organic matter occurs under strictly anaerobic conditions. Methanogenic archaea digest organic compounds, releasing massive bubbling fluxes of methane gas (CH4) directly into the atmosphere. Because methane is a short-lived climate pollutant with a high 20-year Global Warming Potential (GWP20 ≈ 84), rapid thermokarst methane emissions create an amplifying feedback loop that accelerates global warming.",
+          "imageUrl": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=640"
+        },
+        {
+          "subtopicId": "sub_08_3",
+          "title": "Module 3: Polar Ice Sheet Mass Balance & GRACE Satellite Gravimetry",
+          "summary": "Quantifying ice sheet mass loss using twin-satellite gravimetry, MISI, and sea level contributions.",
+          "content": "The polar ice sheets covering Greenland and Antarctica contain enough frozen water to raise global sea levels by approximately 65 meters (~7.4 m for Greenland, ~58 m for Antarctica). Tracking ice mass balance relies on satellite remote sensing, particularly NASA's GRACE (Gravity Recovery and Climate Experiment) and GRACE-Follow On (GRACE-FO) missions. GRACE utilizes twin satellites orbiting in tandem ~220 km apart. As the lead satellite passes over a high-mass region (such as a thick ice sheet), localized gravitational attraction pulls it forward, slightly expanding the distance between the two spacecraft. Microwave K-band ranging measures inter-satellite distance variations down to micrometers. Monthly gravimetric maps reveal precise mass loss trends: Greenland is losing ~270 gigatons of ice per year, while Antarctica is losing ~150 gigatons per year. Ice mass loss occurs through surface mass balance meltwater runoff and dynamic ice discharge. Dynamic marine ice sheet loss is driven by Marine Ice Sheet Instability (MISI): warm circumpolar deep water undercuts floating ice shelf grounding lines where bed topography slopes downward inland below sea level, ungrounding glaciers and causing runaway ice discharge into the ocean.",
+          "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=640"
+        },
+        {
+          "subtopicId": "sub_08_4",
+          "title": "Module 4: Arctic Amplification & Sea Ice Albedo Feedback",
+          "summary": "Polar energy balance shifts, loss of multi-year sea ice, and mid-latitude weather jet stream destabilization.",
+          "content": "The Arctic region is warming more than three to four times faster than the global average—a phenomenon known as Arctic Amplification. The primary mechanism driving this polar warming is the positive Sea Ice-Albedo Feedback. Bright, snow-covered sea ice reflects up to 80% of incoming solar shortwave radiation back into space (albedo alpha ≈ 0.80). As rising temperatures melt sea ice, reflective ice is replaced by dark, open ocean water, which absorbs up to 90% of incident solar radiation (albedo alpha ≈ 0.10). Absorbed solar thermal energy warms the upper ocean mixed layer, delaying autumn ice freeze-up and causing further ice thinning and loss. Over recent decades, thick, multi-year sea ice has been largely replaced by thin, vulnerable seasonal ice. Arctic sea ice loss alters the equatorto-pole temperature gradient, weakening the upper-tropospheric Polar Jet Stream. A weakened jet stream exhibits high-amplitude, slow-moving Rossby waves, leading to persistent weather blocking events that cause prolonged heatwaves, cold snaps, and severe flooding across North America, Europe, and Asia.",
+          "imageUrl": "https://images.unsplash.com/photo-1517783997329-02e1f40e3864?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_09",
+      "title": "Radiative Physics & Greenhouse Gas Dynamics",
+      "description": "Spectroscopic absorption windows of atmospheric gases, Planck curve thermal radiation trapping, Global Warming Potential (GWP100 vs GWP20), Global Temperature Change Potential (GTP), and atmospheric lifetimes.",
+      "category": "Atmospheric Physics",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 9,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_09_1",
+          "title": "Module 1: Infrared Spectroscopy & Molecular Vibrational Physics",
+          "summary": "Quantum mechanical dipole momentum, vibrational modes of greenhouse gases, and Planck thermal emission.",
+          "content": "Earth's surface absorbs shortwave solar radiation (~0.3 - 3.0 micrometers, centered in visible light) and re-emits longwave thermal infrared radiation (~4.0 - 50 micrometers) according to Planck's Radiation Law and the Stefan-Boltzmann Law: E = epsilon * sigma * T^4. Homonuclear diatomic gas molecules making up 99% of the atmosphere (N2 and O2) possess no permanent electric dipole moment, nor can they acquire a dynamic dipole moment during molecular vibration; thus, they are transparent to infrared radiation. Conversely, non-linear triatomic and polyatomic greenhouse gas molecules (H2O, CO2, CH4, N2O, O3, synthetic F-gases) undergo quantum mechanical vibrational transitions when exposed to specific infrared wavelengths. Carbon dioxide (CO2) possesses three fundamental vibrational modes: Symmetric Stretching (nu1, IR-inactive), Asymmetric Stretching (nu3, ~4.3 um), and Bending Modes (nu2, ~15 um). The 15-micrometer bending vibration corresponds directly to the peak spectral emission range of Earth's outgoing thermal radiation. Upon absorbing an IR photon, the molecule transitions to an excited vibrational energy state before re-radiating the photon isotropically in all directions—redirecting roughly half of the thermal energy back down toward Earth's surface.",
+          "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640"
+        },
+        {
+          "subtopicId": "sub_09_2",
+          "title": "Module 2: The Atmospheric Window & Band Saturation Optics",
+          "summary": "Spectral transparency windows (8-13 µm), logarithmic forcing of CO2, and high-GWP synthetic fluorinated gases.",
+          "content": "The absorption spectrum of Earth's atmosphere features a key spectral transparency region between 8.0 and 13.0 micrometers, known as the 'Atmospheric Window.' Radiation emitted within this window escapes directly into space without significant absorption by water vapor or CO2. However, synthetic industrial fluorinated gases—such as Hydrofluorocarbons (HFCs), Perfluorocarbons (PFCs), and Sulfur Hexafluoride (SF6)—possess strong carbon-fluorine (C-F) vibrational absorption bands operating directly inside this 8-13 um atmospheric window. Consequently, these synthetic gases exhibit exceptionally high Radiative Efficiencies per molecule. Furthermore, radiative forcing calculations must account for Band Saturation. Core absorption bands for abundant greenhouse gases like CO2 (centered at 15 um) are already nearly saturated near line centers at current atmospheric concentrations (~420 ppm). Therefore, adding incremental CO2 produces a Logarithmic Radiative Forcing response: Delta F = alpha * ln(C / C_0), where alpha ≈ 5.35 W/m^2. Doubling CO2 concentration yields a constant radiative forcing increment of ~3.7 W/m^2.",
+          "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=640"
+        },
+        {
+          "subtopicId": "sub_09_3",
+          "title": "Module 3: GWP vs GTP Metrics & Short-Lived Climate Pollutants (SLCPs)",
+          "summary": "Formulating Global Warming Potential against Global Temperature Change Potential over multiple time horizons.",
+          "content": "Comparing the climate impact of different greenhouse gases requires standardized equivalence metrics relative to CO2. Global Warming Potential (GWP) measures the cumulative radiative forcing caused by emitting 1 kg of a trace gas relative to 1 kg of reference CO2 over a chosen time horizon (TH): GWP_i(TH) = [ Integral_0^TH (a_i * C_i(t) dt) ] / [ Integral_0^TH (a_CO2 * C_CO2(t) dt) ], where a_i is radiative efficiency and C_i(t) is atmospheric decay concentration over time. Short-Lived Climate Pollutants (SLCPs)—such as methane (CH4, lifetime ~11.8 years)—exhibit stark metric differences across time horizons. Methane's GWP over a 20-year horizon (GWP20) is ~84, whereas its GWP over a 100-year horizon (GWP100) drops to ~28 because methane oxidizes into CO2 within two decades. While GWP measures cumulative energy trapped in the system, Global Temperature Change Potential (GTP) measures the actual global mean surface temperature change induced at a specific target year in the future. Metric selection dictates climate mitigation strategy: prioritizing GWP20 targets rapid near-term temperature slowdown via methane reduction, while prioritizing GWP100 aligns with long-term climate stabilization goals.",
+          "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=640"
+        },
+        {
+          "subtopicId": "sub_09_4",
+          "title": "Module 4: Atmospheric Lifetimes & Impulse Response Functions",
+          "summary": "Bern Impulse Response Functions, oceanic carbon uptake, and multi-thousand year silicate weathering sinks.",
+          "content": "Trace gases like methane decay exponentially according to a single characteristic atmospheric lifetime (e.g., dC/dt = -C/tau, where tau ≈ 11.8 years, driven by tropospheric OH radical oxidation). In contrast, emitted Carbon Dioxide (CO2) does NOT possess a single atmospheric lifetime because it is exchanged across multiple earth system carbon reservoirs exhibiting vastly different absorption timescales. CO2 removal is modeled using Bern Impulse Response Functions (IRF): y(t) = a_0 + Sum_i (a_i * exp(-t / tau_i)). When a pulse of CO2 is emitted today: (1) Approximately 20-30% is absorbed within decades by the upper ocean mixed layer and terrestrial biosphere photosynthesis (tau_1 ~ 5 to 30 years); (2) Another 30% is absorbed over centuries through deep ocean circulation and carbonate dissolution buffering (tau_2 ~ 300 years); (3) Crucially, an enduring fraction (a_0 ≈ 15% to 20%) remains suspended in the atmosphere for thousands to tens of thousands of years until extremely slow continental silicate rock weathering reactions (CaSiO3 + CO2 -> CaCO3 + SiO2) permanently remove it. Thus, fossil CO2 emissions impose near-permanent climatic impacts.",
+          "imageUrl": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=640"
+        }
+      ]
+    },
+    {
+      "topicId": "topic_10",
+      "title": "Industrial Ecology & Circular Decarbonization",
+      "description": "Applying material flow analysis (MFA) and urban metabolism to industrial systems. Examines hard-to-abate heavy industry decarbonization (steel, cement, chemicals), carbon capture and storage (CCS), and green hydrogen utilization.",
+      "category": "Industrial Systems",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=640",
+      "difficulty": "Expert",
+      "pointsReward": 100,
+      "orderIndex": 10,
+      "isPublished": true,
+      "subtopics": [
+        {
+          "subtopicId": "sub_10_1",
+          "title": "Module 1: Decarbonizing Hard-to-Abate Heavy Industry",
+          "summary": "Chemical process technology shifts in primary steel, cement calcination, and chemical manufacturing.",
+          "content": "Heavy industries—steel, cement, chemicals, and aluminum—account for roughly 30% of global greenhouse gas emissions. These sectors are classified as 'hard-to-abate' because emissions stem not only from high-temperature process heat, but also from fundamental chemical reduction reactions. Primary Steelmaking traditionally uses Blast Furnace-Basic Oxygen Furnace (BF-BOF) routes, where coking coal acts as a chemical reducing agent to strip oxygen from iron ore (Fe2O3 + 3C -> 2Fe + 3CO). Decarbonization requires shifting to Hydrogen-based Direct Reduced Iron (H2-DRI) coupled with Electric Arc Furnaces (EAF): Fe2O3 + 3H2 -> 2Fe + 3H2O, replacing carbon emissions with pure water vapor. Cement Manufacturing generates ~60% of its emissions from chemical process calcination inside high-temperature kilns, where limestone is thermally decomposed: CaCO3 (limestone) + heat -> CaO (lime) + CO2. Because this CO2 is chemically released from limestone, energy efficiency alone cannot decarbonize cement; kilns must implement post-combustion or oxy-fuel Carbon Capture and Storage (CCS). Chemical Manufacturing requires electrifying process cracking furnaces and transitioning from fossil naphtha feedstocks to bio-based feeds and green hydrogen.",
+          "imageUrl": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=640"
+        },
+        {
+          "subtopicId": "sub_10_2",
+          "title": "Module 2: Material Flow Analysis (MFA) & Industrial Symbiosis",
+          "summary": "Mass balance tracking, urban metabolism, and eco-industrial network engineering.",
+          "content": "Industrial Ecology models industrial supply chains as interconnected, thermodynamic ecosystems rather than linear, open-loop throughput pipelines. Material Flow Analysis (MFA) applies the physical Law of Conservation of Mass to quantify spatial stocks and flows of critical materials (e.g., steel, copper, lithium, plastics) across defined regional or national boundaries: Sum(Inflow) = Sum(Outflow) + Change in Stock. MFA identifies material leakage points, dissipative losses, and recycling bottlenecks across product lifecycles. On an urban scale, Urban Metabolism evaluates total material, water, and energy throughput sustaining urban infrastructure. Implementing Industrial Symbiosis establishes physical networks where waste streams, byproduct heat, and steam from one industrial facility serve as direct secondary raw material inputs for adjacent plants. The textbook model—the Kalundborg Symbiosis in Denmark—features co-located facilities (power plant, oil refinery, enzyme producer, plasterboard factory, and municipal heating district) exchanging waste heat, cooling water, fly ash, sulfur sludge, and process steam, reducing total resource consumption and carbon emissions.",
+          "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=640"
+        },
+        {
+          "subtopicId": "sub_10_3",
+          "title": "Module 3: Carbon Capture, Utilization & Storage (CCUS) Technology",
+          "summary": "Amine solvent absorption kinetics, Direct Air Capture (DAC), and deep saline aquifer sequestration.",
+          "content": "Carbon Capture, Utilization, and Storage (CCUS) comprises technologies that intercept CO2 from point source industrial flue gases or directly from ambient air. Chemical Absorption utilizing Liquid Amine Solvents (such as Monoethanolamine [MEA]) is the primary commercial post-combustion capture method. Flue gas bubbles through an absorber column where cold MEA chemically binds CO2; the CO2-saturated solvent is then pumped to a stripper column heated to ~120 °C, breaking the chemical bonds to release pure CO2 gas while regenerating the amine solvent. Direct Air Capture (DAC) uses solid sorbents or liquid solvents to capture CO2 from ambient air at 420 ppm concentration. However, DAC requires immense thermal and electrical energy inputs due to low thermodynamic partial pressure. Captured CO2 is compressed into a supercritical fluid state (pressure > 7.38 MPa, temperature > 31.1 °C) and transported via pipelines to permanent geological storage formations. Supercritical CO2 is injected thousands of meters underground into Deep Saline Aquifers or depleted oil and gas fields sealed under impermeable caprock, where it undergoes structural trapping, residual trapping, solubility trapping, and ultimate mineral carbonation.",
+          "imageUrl": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=640"
+        },
+        {
+          "subtopicId": "sub_10_4",
+          "title": "Module 4: The Green Hydrogen Economy & Clean Fuel Carriers",
+          "summary": "Electrolyzer physics (PEM vs Alkaline), hydrogen color classifications, and ammonia energy carriers.",
+          "content": "Hydrogen is an essential zero-carbon chemical feedstock and high-density thermal fuel carrier for hard-to-electrify applications. Hydrogen is classified by production source: 'Gray Hydrogen' is produced via Steam Methane Reforming (SMR: CH4 + H2O -> CO + 3H2) releasing unabated CO2; 'Blue Hydrogen' couples SMR with carbon capture; 'Green Hydrogen' is produced via water electrolysis powered entirely by 100% renewable electricity (2 H2O + electricity -> 2 H2 + O2). Water electrolysis technology utilizes either Alkaline Electrolyzers (using liquid KOH electrolyte) or Proton Exchange Membrane (PEM) Electrolyzers (using solid polymer membranes and precious metal electrocatalysts). PEM electrolyzers operate with high current densities and rapid dynamic response times, making them ideal for pairing with fluctuating solar and wind generation. Because gaseous hydrogen has a low volumetric energy density, long-distance transport requires compressing it to 70 MPa, liquefying it at cryogenic temperatures (-253 °C), or chemically converting hydrogen into clean fuel carriers like Green Ammonia (NH3) via the Haber-Bosch process.",
+          "imageUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=640"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "videoId": "video_01",
+      "title": "Causes and Effects of Climate Change",
+      "description": "Overview of climate change causes, greenhouse effects, and mitigation strategies.",
+      "topicId": "topic_01",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=oD4gvDliieY",
+      "durationSeconds": 184,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_02",
+      "title": "Scope 3 Carbon Footprint and Supply Chain Emissions",
+      "description": "Understanding carbon accounting and value chain decarbonization.",
+      "topicId": "topic_01",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=2EFQxfjywpI",
+      "durationSeconds": 312,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_03",
+      "title": "How Solar Energy Works",
+      "description": "Photovoltaic cells, solar physics, and converting photons into clean electricity.",
+      "topicId": "topic_02",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1509391365360-2e959784a276?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=xKxrkht7CpY",
+      "durationSeconds": 310,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_04",
+      "title": "Wind Energy & Betz Limit Principles",
+      "description": "Aerodynamics of wind turbines and grid integration of wind power.",
+      "topicId": "topic_02",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=VuYIKmQLQqM",
+      "durationSeconds": 340,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_05",
+      "title": "Forests and Climate Change",
+      "description": "How trees sequester carbon, forest biomass dynamics, and ecosystem balances.",
+      "topicId": "topic_03",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1511497584788-8767611136f6?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=B5Fwl4P4EW8",
+      "durationSeconds": 295,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_06",
+      "title": "Deforestation and UN-REDD+ Policy Mechanisms",
+      "description": "Understanding tropical deforestation and international forest conservation integrity.",
+      "topicId": "topic_03",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=WOanf9goB7U",
+
+
+      "durationSeconds": 320,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_07",
+      "title": "Ocean Acidification Explained",
+      "description": "Seawater carbonate chemistry, pH reduction, and carbon dioxide absorption.",
+      "topicId": "topic_04",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=OVWZyDz--30",
+      "durationSeconds": 240,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_08",
+      "title": "Impacts of Acidification on Marine Calcifiers",
+      "description": "Aragonite saturation states, coral bleaching, and marine shell dissolution.",
+      "topicId": "topic_04",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=UdObHQjTVGk",
+      "durationSeconds": 280,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_09",
+      "title": "Paris Agreement and International Climate Markets",
+      "description": "Article 6 carbon trading, ITMOs, and Nationally Determined Contributions (NDCs).",
+      "topicId": "topic_05",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=cmLHu_ZdwVU",
+      "durationSeconds": 330,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_10",
+      "title": "Carbon Pricing and Emissions Trading Schemes",
+      "description": "How Cap-and-Trade and carbon tax policies incentivize heavy industry decarbonization.",
+      "topicId": "topic_05",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=qxdxBfZKoa0",
+      "durationSeconds": 310,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_11",
+      "title": "Atmospheric Aerosols and Climate Radiative Forcing",
+      "description": "Particulate matter scattering vs absorption and indirect cloud albedo effects.",
+      "topicId": "topic_06",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=-p7Ra13rG8Y",
+      "durationSeconds": 290,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_12",
+      "title": "Tropospheric Ground-Level Ozone Chemistry",
+      "description": "Photochemical reactions between NOx and VOC precursors driving ground-level ozone.",
+      "topicId": "topic_06",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=DQPF_n-7Ww4",
+      "durationSeconds": 305,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_13",
+      "title": "Earth System Tipping Points",
+      "description": "Non-linear climate collapse triggers, Amazon dieback, and permafrost thaw.",
+      "topicId": "topic_07",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=oTOv2FkjrXA",
+      "durationSeconds": 350,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_14",
+      "title": "Biodiversity Resilience & Ecosystem Services",
+      "description": "Functional biodiversity, habitat loss, and ecological stability models.",
+      "topicId": "topic_07",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=D6luBEJfi3s",
+      "durationSeconds": 280,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_15",
+      "title": "Glaciers, Ice Mass, and Peak Water",
+      "description": "Mountain glacier hydrology, melt dynamics, and downstream water security.",
+      "topicId": "topic_08",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=WJgpDyP9ewQ",
+      "durationSeconds": 315,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_16",
+      "title": "Permafrost Thaw and Methane Releases",
+      "description": "Thermokarst lake formation, anaerobic microbial methanogenesis, and feedback loops.",
+      "topicId": "topic_08",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=lWfABpXTvhU",
+      "durationSeconds": 325,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_17",
+      "title": "The Greenhouse Effect and Infrared Radiative Physics",
+      "description": "Quantum vibrational modes of greenhouse gases absorbing longwave radiation.",
+      "topicId": "topic_09",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=YTJAT-6WDFE",
+      "durationSeconds": 290,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_18",
+      "title": "Methane Lifetimes: GWP20 vs GWP100 Metrics",
+      "description": "Comparing atmospheric decay times and short-lived climate pollutant metrics.",
+      "topicId": "topic_09",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1509391365360-2e959784a276?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=YBLi2XYPm_A",
+      "durationSeconds": 300,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_19",
+      "title": "Decarbonizing Heavy Industry: Steel, Cement, and Chemicals",
+      "description": "Green hydrogen direct reduced iron steelmaking and cement calcination CCUS.",
+      "topicId": "topic_10",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=UJFasTEz684",
+      "durationSeconds": 360,
+      "pointsReward": 50,
+      "orderIndex": 1,
+      "isPublished": true
+    },
+    {
+      "videoId": "video_20",
+      "title": "Circular Economy and Material Flow Analysis",
+      "description": "System dynamics modeling of material mass balances and closed-loop recycling.",
+      "topicId": "topic_10",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=640",
+      "videoUrl": "https://www.youtube.com/watch?v=AUywoZcFVdA",
+      "durationSeconds": 310,
+      "pointsReward": 50,
+      "orderIndex": 2,
+      "isPublished": true
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q01_1",
+      "topicId": "topic_01",
+      "questionText": "Under the GHG Protocol Corporate Standard, how are Scope 2 emissions calculated using the market-based method?",
+      "type": "MCQ",
+      "options": [
+        "By applying supplier-specific emission factors derived from contractual instruments like Power Purchase Agreements (PPAs) or RECs.",
+        "By multiplying total electricity consumption by the average grid emissions factor of the geographic location.",
+        "By calculating direct stationary combustion of fuel at owned facilities.",
+        "By measuring downstream transportation emissions from third-party logistics."
+      ],
+      "correctAnswer": "By applying supplier-specific emission factors derived from contractual instruments like Power Purchase Agreements (PPAs) or RECs.",
+      "explanation": "The GHG Protocol Scope 2 Guidance requires market-based reporting reflecting contractual purchases like PPAs and guarantees of origin.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q01_2",
+      "topicId": "topic_01",
+      "questionText": "According to ISO 14044, which phase of Life Cycle Assessment (LCA) converts inventory flows into environmental impact indicators?",
+      "type": "MCQ",
+      "options": [
+        "Life Cycle Impact Assessment (LCIA)",
+        "Life Cycle Inventory Analysis (LCI)",
+        "Goal and Scope Definition",
+        "Life Cycle Interpretation"
+      ],
+      "correctAnswer": "Life Cycle Impact Assessment (LCIA)",
+      "explanation": "LCIA evaluates environmental impact magnitudes using LCI results mapped via characterization factors.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q01_3",
+      "topicId": "topic_01",
+      "questionText": "Economic Input-Output LCA (EIO-LCA) models suffer from circularity errors because monetary matrices fail to track physical energy flows.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "EIO-LCA handles circular interdependencies across industrial sectors using Leontief inverse matrices.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q01_4",
+      "topicId": "topic_01",
+      "questionText": "Which Scope 3 GHG protocol category covers upstream production of purchased raw materials?",
+      "type": "MCQ",
+      "options": [
+        "Category 1: Purchased Goods and Services",
+        "Category 4: Upstream Transportation",
+        "Category 6: Business Travel",
+        "Category 11: Use of Sold Products"
+      ],
+      "correctAnswer": "Category 1: Purchased Goods and Services",
+      "explanation": "Scope 3 Category 1 includes emissions from the extraction, production, and manufacturing of raw material inputs.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q01_5",
+      "topicId": "topic_01",
+      "questionText": "What system boundary is applied when a Life Cycle Assessment tracks a product from raw material extraction up to the factory gate?",
+      "type": "MCQ",
+      "options": ["Cradle-to-Gate", "Cradle-to-Grave", "Gate-to-Gate", "Cradle-to-Cradle"],
+      "correctAnswer": "Cradle-to-Gate",
+      "explanation": "Cradle-to-gate assesses product impacts from resource extraction up until it leaves the manufacturing plant gate.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q01_6",
+      "topicId": "topic_01",
+      "questionText": "PAS 2050 and ISO 14067 are international standard frameworks specific to Product Carbon Footprinting (PCF).",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "ISO 14067 and PAS 2050 specify requirements and guidelines for quantifying product carbon footprints.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q02_1",
+      "topicId": "topic_02",
+      "questionText": "What is the theoretical maximum aerodynamic efficiency limit for any wind turbine rotor according to Betz's Law?",
+      "type": "MCQ",
+      "options": ["59.3% (16/27)", "100%", "75.5%", "42.1%"],
+      "correctAnswer": "59.3% (16/27)",
+      "explanation": "Betz's Law proves that no wind turbine can capture more than 59.3% of the kinetic energy in wind.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q02_2",
+      "topicId": "topic_02",
+      "questionText": "Why does high penetration of inverter-based renewable generation reduce power system frequency stability during sudden outages?",
+      "type": "MCQ",
+      "options": [
+        "Inverters lack physical mechanical inertia, causing higher Rate of Change of Frequency (RoCoF).",
+        "Solar panels absorb frequency signals directly from high-voltage transformers.",
+        "Wind turbines produce direct current that destroys AC grid frequency control.",
+        "Battery energy storage increases short-circuit impedance."
+      ],
+      "correctAnswer": "Inverters lack physical mechanical inertia, causing higher Rate of Change of Frequency (RoCoF).",
+      "explanation": "Conventional generators provide rotational mechanical inertia. Inverters must rely on synthetic inertia algorithms to stabilize RoCoF.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q02_3",
+      "topicId": "topic_02",
+      "questionText": "In silicon PV cells, what minimal energy threshold must incident photons overcome to generate an electron-hole pair?",
+      "type": "MCQ",
+      "options": [
+        "Silicon Bandgap Energy (~1.1 eV)",
+        "Thermal Energy (~0.025 eV)",
+        "Ultraviolet Energy (>3.1 eV)",
+        "Work Function of Silver (~4.2 eV)"
+      ],
+      "correctAnswer": "Silicon Bandgap Energy (~1.1 eV)",
+      "explanation": "Photons must equal or exceed silicon's bandgap energy (~1.1 eV) to excite valence electrons into the conduction band.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q02_4",
+      "topicId": "topic_02",
+      "questionText": "The electrical phenomenon on power grids characterized by high midday solar generation followed by steep evening ramp demand is known as the Duck Curve.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "The Duck Curve illustrates net load timing shifts created by solar energy generation dynamics.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q02_5",
+      "topicId": "topic_02",
+      "questionText": "What is the primary function of Maximum Power Point Tracking (MPPT) in solar PV inverters?",
+      "type": "MCQ",
+      "options": [
+        "Dynamically adjusting inverter input impedance to extract maximum power along the I-V curve.",
+        "Converting alternating current into direct current for grid transmission.",
+        "Limiting solar panel voltage output during high temperature conditions.",
+        "Cooling solar panel surfaces using automated water sprayers."
+      ],
+      "correctAnswer": "Dynamically adjusting inverter input impedance to extract maximum power along the I-V curve.",
+      "explanation": "MPPT continuously tracks changing irradiance and temperature to operate the panel at peak power output.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q02_6",
+      "topicId": "topic_02",
+      "questionText": "Virtual Power Plants (VPPs) aggregate decentralized batteries, electric vehicles, and solar systems to function as a unified power generator.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "VPP software coordinates distributed energy resources (DERs) to supply grid services dynamically.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q03_1",
+      "topicId": "topic_03",
+      "questionText": "Which remote sensing technology provides direct 3D structural canopy height metrics to calculate forest Aboveground Biomass (AGB)?",
+      "type": "MCQ",
+      "options": [
+        "LiDAR (Light Detection and Ranging)",
+        "Optical Multispectral Imagery (Landsat)",
+        "Thermal Infrared Sensing",
+        "Passive Microwave Radiometry"
+      ],
+      "correctAnswer": "LiDAR (Light Detection and Ranging)",
+      "explanation": "LiDAR pulses accurately measure vertical forest structure, tree height, and canopy density essential for biomass calculations.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q03_2",
+      "topicId": "topic_03",
+      "questionText": "In REDD+ forest carbon accounting, what does the term 'leakage' refer to?",
+      "type": "MCQ",
+      "options": [
+        "The displacement of deforestation activities to areas outside the project boundary.",
+        "The slow release of methane gas from decaying biomass.",
+        "Loss of soil organic carbon due to heavy rainfall erosion.",
+        "Inaccurate carbon accounting in satellite image algorithms."
+      ],
+      "correctAnswer": "The displacement of deforestation activities to areas outside the project boundary.",
+      "explanation": "Leakage occurs when protecting forest in one area shifts deforestation activity to adjacent unprotected regions.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q03_3",
+      "topicId": "topic_03",
+      "questionText": "Boreal forest ecosystems store the vast majority of their carbon aboveground in living tree trunks rather than in soil organic matter.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Boreal biomes store up to 80-90% of their total carbon underground in cold, waterlogged peat and permafrost soils.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q03_4",
+      "topicId": "topic_03",
+      "questionText": "What field measurement input is required by standard allometric equations to calculate tree biomass?",
+      "type": "MCQ",
+      "options": [
+        "Diameter at Breast Height (DBH) and tree height",
+        "Leaf chlorophyll content",
+        "Root absorption rate",
+        "Soil pH level"
+      ],
+      "correctAnswer": "Diameter at Breast Height (DBH) and tree height",
+      "explanation": "Allometric equations calculate volume and biomass using DBH (typically at 1.3m) and total tree height.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q03_5",
+      "topicId": "topic_03",
+      "questionText": "In carbon credit markets, 'additionality' proves that emission reductions would have occurred even without carbon credit revenue.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Additionality requires proving that the carbon reduction would NOT have occurred without financial incentives from carbon offset sales.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q03_6",
+      "topicId": "topic_03",
+      "questionText": "Which spaceborne radar frequency band is best suited for penetrating dense forest canopies to measure woody biomass density?",
+      "type": "MCQ",
+      "options": ["L-band and P-band SAR", "X-band Radar", "C-band Radar", "Ka-band Altimetry"],
+      "correctAnswer": "L-band and P-band SAR",
+      "explanation": "Longer wavelengths (L-band ~24cm, P-band ~70cm) penetrate leaf foliage to interact directly with large trunks and branches.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q04_1",
+      "topicId": "topic_04",
+      "questionText": "What chemical transformation occurs when anthropogenic CO2 dissolves in surface seawater?",
+      "type": "MCQ",
+      "options": [
+        "CO2 reacts with H2O to form carbonic acid (H2CO3), which dissociates into hydrogen ions (H+) and lowers pH.",
+        "CO2 binds directly with calcium ions to precipitate limestone.",
+        "CO2 increases carbonate ion (CO3 2-) concentration, raising seawater alkalinity.",
+        "CO2 breaks down into carbon monoxide gas and oxygen."
+      ],
+      "correctAnswer": "CO2 reacts with H2O to form carbonic acid (H2CO3), which dissociates into hydrogen ions (H+) and lowers pH.",
+      "explanation": "Hydrogen ion accumulation lowers seawater pH and binds with carbonate ions needed by calcifying organisms.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q04_2",
+      "topicId": "topic_04",
+      "questionText": "Aragonite is a more soluble polymorph of calcium carbonate than calcite, making aragonite-shell organisms more vulnerable to ocean acidification.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "Aragonite has a higher solubility product. When saturation state (Omega) drops below 1.0, aragonite structures dissolve rapidly.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q04_3",
+      "topicId": "topic_04",
+      "questionText": "How does Ocean Alkalinity Enhancement (OAE) function as an Ocean Carbon Dioxide Removal (oCDR) strategy?",
+      "type": "MCQ",
+      "options": [
+        "By adding alkaline minerals like olivine to neutralize H+ ions and shift carbon equilibrium toward carbonate ions.",
+        "By pumping liquid carbon dioxide directly into deep ocean trenches.",
+        "By boiling seawater to strip out dissolved gas molecules.",
+        "By creating giant floating synthetic ice sheets to cool surface waters."
+      ],
+      "correctAnswer": "By adding alkaline minerals like olivine to neutralize H+ ions and shift carbon equilibrium toward carbonate ions.",
+      "explanation": "Adding alkaline minerals increases ocean buffering capacity, consuming H+ ions and enhancing atmospheric CO2 absorption.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q04_4",
+      "topicId": "topic_04",
+      "questionText": "Average global ocean surface pH has declined by approximately 0.1 units since the Industrial Revolution, representing roughly a 30% increase in acidity.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "Because pH is a logarithmic scale (-log[H+]), a 0.1 drop corresponds to approximately a 30% increase in hydrogen ion concentration.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q04_5",
+      "topicId": "topic_04",
+      "questionText": "Which planktonic organism utilizes aragonite to build its protective shell, serving as an indicator species for acidification?",
+      "type": "MCQ",
+      "options": [
+        "Pteropod (Sea Butterfly)",
+        "Diatom",
+        "Cyanobacteria",
+        "Dinoflagellate"
+      ],
+      "correctAnswer": "Pteropod (Sea Butterfly)",
+      "explanation": "Pteropods produce thin aragonite shells that undergo rapid dissolution in undersaturated waters.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q04_6",
+      "topicId": "topic_04",
+      "questionText": "Ocean deoxygenation is amplified by climate warming because warmer water holds less dissolved oxygen and increases water column stratification.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "Gas solubility decreases as water temperature rises, while surface thermal stratification restricts oxygen transport down to deeper layers.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q05_1",
+      "topicId": "topic_05",
+      "questionText": "What mechanism under Article 6.2 of the Paris Agreement prevents two countries from claiming the same carbon emission reductions?",
+      "type": "MCQ",
+      "options": [
+        "Corresponding Adjustments",
+        "Clean Development Mechanism (CDM)",
+        "Joint Implementation (JI)",
+        "Carbon Border Taxes"
+      ],
+      "correctAnswer": "Corresponding Adjustments",
+      "explanation": "Corresponding Adjustments require the selling nation to add transferred mitigation outcomes back to its inventory while the buyer subtracts it.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q05_2",
+      "topicId": "topic_05",
+      "questionText": "How does the EU Carbon Border Adjustment Mechanism (CBAM) function?",
+      "type": "MCQ",
+      "options": [
+        "It imposes an equalizing carbon price on carbon-intensive goods imported into the EU to prevent carbon leakage.",
+        "It bans imports from countries that have not ratified the Paris Agreement.",
+        "It provides subsidies to European exporters shipping heavy industrial goods abroad.",
+        "It levies an international fuel tax on international maritime container shipping."
+      ],
+      "correctAnswer": "It imposes an equalizing carbon price on carbon-intensive goods imported into the EU to prevent carbon leakage.",
+      "explanation": "CBAM ensures imported industrial products bear a carbon cost equivalent to EU ETS allowance prices.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q05_3",
+      "topicId": "topic_05",
+      "questionText": "What is the key impact of choosing a low social discount rate (e.g., 1% vs 5%) in climate Integrated Assessment Models (IAMs)?",
+      "type": "MCQ",
+      "options": [
+        "It places higher economic value on avoiding future climate damages, justifying higher present-day carbon prices.",
+        "It reduces the present value of future damages, lowering target carbon tax levels.",
+        "It eliminates uncertainty in climate sensitivity projections.",
+        "It artificially inflates fossil fuel asset values."
+      ],
+      "correctAnswer": "It places higher economic value on avoiding future climate damages, justifying higher present-day carbon prices.",
+      "explanation": "Lower discount rates weight future generation damages heavily in present value calculations, raising the calculated Social Cost of Carbon.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q05_4",
+      "topicId": "topic_05",
+      "questionText": "An Emissions Trading Scheme (Cap-and-Trade) guarantees a fixed price per ton of CO2 emitted while leaving total emission volume variable.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Cap-and-trade fixes total emissions via an absolute cap, letting market trading dictate allowance prices. Carbon taxes fix price.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q05_5",
+      "topicId": "topic_05",
+      "questionText": "Which climate-economic model developed by William Nordhaus won the Nobel Prize for modeling climate damages alongside economic growth?",
+      "type": "MCQ",
+      "options": [
+        "DICE (Dynamic Integrated Climate-Economy)",
+        "PAGE (Policy Analysis of the Greenhouse Effect)",
+        "FUND (Framework for Uncertainty, Negotiation and Distribution)",
+        "GLOBIOM"
+      ],
+      "correctAnswer": "DICE (Dynamic Integrated Climate-Economy)",
+      "explanation": "The DICE model integrates macroeconomics with carbon cycles and climate damage functions.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q05_6",
+      "topicId": "topic_05",
+      "questionText": "Compliance carbon markets are driven by voluntary corporate sustainability pledges rather than mandatory government regulations.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Compliance markets (e.g., EU ETS, California Cap-and-Trade) are legally mandated by regulations. Voluntary carbon markets (VCM) operate independently.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q06_1",
+      "topicId": "topic_06",
+      "questionText": "Which type of atmospheric aerosol exhibits a STRONG direct warming effect by absorbing solar radiation?",
+      "type": "MCQ",
+      "options": ["Black Carbon (Soot)", "Sulfate Aerosols", "Sea Salt Particles", "Organic Nitrates"],
+      "correctAnswer": "Black Carbon (Soot)",
+      "explanation": "Black carbon strongly absorbs light across visible spectra, converting solar radiation directly into atmospheric heat.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q06_2",
+      "topicId": "topic_06",
+      "questionText": "Tropospheric ozone is emitted directly by high-emission diesel engines and coal power plants.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Tropospheric ozone is a secondary pollutant formed via photochemical reactions between precursor gases (NOx and VOCs) in sunlight.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q06_3",
+      "topicId": "topic_06",
+      "questionText": "According to the Twomey Effect, how do increased aerosol Cloud Condensation Nuclei (CCN) affect cloud albedo?",
+      "type": "MCQ",
+      "options": [
+        "They produce clouds with smaller, more numerous droplets, increasing cloud reflectivity (albedo).",
+        "They cause clouds to absorb infrared radiation and turn black.",
+        "They dissipate cloud cover completely within hours.",
+        "They lower cloud top altitude below sea level."
+      ],
+      "correctAnswer": "They produce clouds with smaller, more numerous droplets, increasing cloud reflectivity (albedo).",
+      "explanation": "Higher CCN counts distribute liquid water across more droplets, increasing total surface area and reflectivity.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q06_4",
+      "topicId": "topic_06",
+      "questionText": "Stratospheric Aerosol Injection (SAI) geoengineering aims to reflect solar radiation by releasing sulfur dioxide to mimic volcanic cooling.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "SAI proposes delivering reflective sulfate particles to the stratosphere to reduce solar radiative forcing.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q06_5",
+      "topicId": "topic_06",
+      "questionText": "Which free radical acts as the primary atmospheric detergent responsible for oxidizing methane and VOC precursor pollutants?",
+      "type": "MCQ",
+      "options": [
+        "Hydroxyl Radical (OH)",
+        "Chlorine Radical (Cl)",
+        "Nitrate Radical (NO3)",
+        "Ozone Molecule (O3)"
+      ],
+      "correctAnswer": "Hydroxyl Radical (OH)",
+      "explanation": "The hydroxyl radical (OH) drives tropospheric chemistry by initiating oxidation of methane, carbon monoxide, and VOCs.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q06_6",
+      "topicId": "topic_06",
+      "questionText": "Sulfate aerosols produce a net positive effective radiative forcing, warming Earth's surface atmosphere.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Sulfate aerosols scatter incoming solar radiation back into space, creating a net negative (cooling) radiative forcing.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q07_1",
+      "topicId": "topic_07",
+      "questionText": "In climate tipping point dynamics, what characterizes a 'hysteresis loop'?",
+      "type": "MCQ",
+      "options": [
+        "The path to restore a system requires returning to conditions far beyond the initial tipping point threshold.",
+        "A system immediately returns to baseline conditions once forcing is reduced.",
+        "Linear proportional responses to incremental temperature increases.",
+        "Zero lag between radiative forcing input and ecological response."
+      ],
+      "correctAnswer": "The path to restore a system requires returning to conditions far beyond the initial tipping point threshold.",
+      "explanation": "Hysteresis means system state recovery is non-reversible along the same path, requiring stress reduction far below the initial threshold.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q07_2",
+      "topicId": "topic_07",
+      "questionText": "Which climate feedback loop threatens to convert the Amazon rainforest from a global carbon sink to a net carbon source?",
+      "type": "MCQ",
+      "options": [
+        "Dieback caused by reduced evapotranspiration, prolonged drought, and forest fire cycles.",
+        "Excessive tree growth driven by elevated atmospheric CO2 fertilization.",
+        "Ocean circulation slowing changing tropical cloud patterns.",
+        "Soil acidification locking nutrients into deep rock layers."
+      ],
+      "correctAnswer": "Dieback caused by reduced evapotranspiration, prolonged drought, and forest fire cycles.",
+      "explanation": "Loss of canopy trees reduces regional rainfall recycling, increasing drought and fire susceptibility that releases stored biomass carbon.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q07_3",
+      "topicId": "topic_07",
+      "questionText": "Functional redundancy in an ecosystem allows multiple species to perform similar ecological roles, enhancing system resilience against biodiversity loss.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "Functional redundancy provides a safety net; if one species declines, redundant species step in to maintain ecosystem functions.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q07_4",
+      "topicId": "topic_07",
+      "questionText": "What occurs during a climate-driven 'phenological mismatch'?",
+      "type": "MCQ",
+      "options": [
+        "Seasonal timing signals between interacting species become desynchronized due to differential climate sensitivity.",
+        "Species undergo rapid genetic mutation in response to thermal stress.",
+        "Plants cease photosynthesizing during winter months.",
+        "Migratory birds permanently lose their flight capabilities."
+      ],
+      "correctAnswer": "Seasonal timing signals between interacting species become desynchronized due to differential climate sensitivity.",
+      "explanation": "Phenological mismatch occurs when species relying on one another (e.g., predator/prey or plant/pollinator) shift seasonal timing at different rates.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q07_5",
+      "topicId": "topic_07",
+      "questionText": "The Atlantic Meridional Overturning Circulation (AMOC) is considered a stable ocean current system immune to climate tipping points.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "AMOC is a recognized climate tipping element; freshwater influx from Greenland melting threatens to weaken or collapse circulation.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q07_6",
+      "topicId": "topic_07",
+      "questionText": "What term describes species moving upward in elevation or toward higher latitudes in search of cooler thermal niches?",
+      "type": "MCQ",
+      "options": [
+        "Range Shifts",
+        "Ecosystem Evolution",
+        "Genetic Drift",
+        "Symbiotic Coexistence"
+      ],
+      "correctAnswer": "Range Shifts",
+      "explanation": "Species track suitable climatic conditions by shifting geographic distributions poleward or upward.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q08_1",
+      "topicId": "topic_08",
+      "questionText": "In glacial hydrology, what does the 'peak water' threshold represent?",
+      "type": "MCQ",
+      "options": [
+        "The point in time when annual glacier runoff reaches its maximum due to melting, after which runoff permanently declines.",
+        "The highest flood water level recorded in a coastal estuarine basin.",
+        "The maximum depth of a subglacial freshwater lake.",
+        "The seasonal limit of winter snowpack accumulation."
+      ],
+      "correctAnswer": "The point in time when annual glacier runoff reaches its maximum due to melting, after which runoff permanently declines.",
+      "explanation": "Shrinking glacier volume eventually reaches a tipping point ('peak water') where meltwater volume peaks and then permanently decreases.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q08_2",
+      "topicId": "topic_08",
+      "questionText": "Permafrost degradation releases greenhouse gases primarily as methane (CH4) under aerobic soil conditions.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Methane is produced during anaerobic decomposition in saturated thermokarst environments. Aerobic decay releases CO2.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q08_3",
+      "topicId": "topic_08",
+      "questionText": "Which satellite mission measures polar ice sheet mass balance by tracking subtle variations in Earth's gravitational field?",
+      "type": "MCQ",
+      "options": [
+        "GRACE (Gravity Recovery and Climate Experiment)",
+        "Landsat 8",
+        "Sentinel-2",
+        "MODIS Terra"
+      ],
+      "correctAnswer": "GRACE (Gravity Recovery and Climate Experiment)",
+      "explanation": "GRACE twin satellites measure monthly changes in Earth's gravity field caused by shifting ice mass.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q08_4",
+      "topicId": "topic_08",
+      "questionText": "The Arctic sea ice-albedo feedback is a positive feedback loop that accelerates regional climate warming.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "Replacing reflective ice (albedo ~0.8) with dark ocean (albedo ~0.06) absorbs more heat, melting additional sea ice.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q08_5",
+      "topicId": "topic_08",
+      "questionText": "What process occurs when ocean warm water undercuts ice shelf grounding lines where bed topography slopes inland below sea level?",
+      "type": "MCQ",
+      "options": [
+        "Marine Ice Sheet Instability (MISI)",
+        "Thermobaric Compression",
+        "Glacial Isostatic Rebound",
+        "Subglacial Hydrological Freeze"
+      ],
+      "correctAnswer": "Marine Ice Sheet Instability (MISI)",
+      "explanation": "MISI causes self-sustaining ice retreat as ungrounding exposes thicker ice to warm seawater.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q08_6",
+      "topicId": "topic_08",
+      "questionText": "Thermosteric sea level rise refers to sea level expansion caused by thermal expansion of ocean water as it absorbs heat.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "As ocean water warms, its density decreases and volume expands, accounting for ~30% of global sea level rise.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q09_1",
+      "topicId": "topic_09",
+      "questionText": "Why is Methane's Global Warming Potential over 20 years (GWP20 ≈ 84) dramatically higher than its 100-year metric (GWP100 ≈ 28)?",
+      "type": "MCQ",
+      "options": [
+        "Methane has a brief atmospheric lifetime (~11.8 years), concentrating its thermal absorption impact in the short term.",
+        "Methane transforms into sulfur dioxide after two decades.",
+        "Methane absorption bands shift into the ultraviolet spectrum over long timeframes.",
+        "GWP calculations exclude atmospheric oxidation chemistry after 50 years."
+      ],
+      "correctAnswer": "Methane has a brief atmospheric lifetime (~11.8 years), concentrating its thermal absorption impact in the short term.",
+      "explanation": "Because methane oxidizes within ~12 years, its strong radiative impact is concentrated over initial decades.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q09_2",
+      "topicId": "topic_09",
+      "questionText": "The 'atmospheric window' refers to the spectral region (8-13 µm) where Earth's atmosphere is relatively transparent to outgoing thermal infrared radiation.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "The 8-13 micrometre spectral band allows surface heat to escape directly into space unless intercepted by trace synthetic gases.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q09_3",
+      "topicId": "topic_09",
+      "questionText": "Adding incremental CO2 to Earth's atmosphere produces a logarithmic radiative forcing response due to spectral absorption band saturation.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "Because core CO2 absorption bands are saturated near center wavelengths, radiative forcing scales logarithmically with concentration increases.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q09_4",
+      "topicId": "topic_09",
+      "questionText": "Which quantum energy state transition occurs when non-linear triatomic molecules like CO2 absorb infrared photons?",
+      "type": "MCQ",
+      "options": [
+        "Vibrational and Rotational State Transitions",
+        "Nuclear Fission Splitting",
+        "Inner-shell Electron Excitation",
+        "Proton Spin Inversion"
+      ],
+      "correctAnswer": "Vibrational and Rotational State Transitions",
+      "explanation": "Infrared absorption induces molecular bending and stretching vibrational modes in greenhouse gas molecules.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q09_5",
+      "topicId": "topic_09",
+      "questionText": "Carbon dioxide has a single, fixed exponential atmospheric decay lifetime of exactly 50 years.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "CO2 removal involves multiple carbon cycle sinks operating across timescales ranging from decades to thousands of years.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q09_6",
+      "topicId": "topic_09",
+      "questionText": "Which climate metric calculates immediate temperature change at a specific future year rather than cumulative radiative forcing over time?",
+      "type": "MCQ",
+      "options": [
+        "Global Temperature Change Potential (GTP)",
+        "Global Warming Potential (GWP)",
+        "Radiative Efficiency Index (REI)",
+        "Climate Sensitivity Factor (CSF)"
+      ],
+      "correctAnswer": "Global Temperature Change Potential (GTP)",
+      "explanation": "GTP measures end-point surface temperature response at a target year relative to CO2.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    },
+    {
+      "questionId": "q10_1",
+      "topicId": "topic_10",
+      "questionText": "In primary steel production, how does Direct Reduced Iron (DRI) using Green Hydrogen reduce process emissions compared to traditional Blast Furnaces?",
+      "type": "MCQ",
+      "options": [
+        "Hydrogen replaces metallurgical coking coal as the reducing agent, producing water vapor (H2O) instead of CO2.",
+        "Hydrogen melts iron ore at room temperature without electric energy.",
+        "Hydrogen captures carbon emissions from coal combustion directly in the furnace stack.",
+        "Hydrogen eliminates the need for iron ore processing entirely."
+      ],
+      "correctAnswer": "Hydrogen replaces metallurgical coking coal as the reducing agent, producing water vapor (H2O) instead of CO2.",
+      "explanation": "H2-DRI uses hydrogen to strip oxygen from iron ore (Fe2O3 + 3H2 -> 2Fe + 3H2O), eliminating carbon reaction emissions.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 1
+    },
+    {
+      "questionId": "q10_2",
+      "topicId": "topic_10",
+      "questionText": "What process accounts for non-energy chemical process emissions in traditional Portland cement manufacturing?",
+      "type": "MCQ",
+      "options": [
+        "Calcination of limestone (CaCO3 -> CaO + CO2)",
+        "Combustion of natural gas in cement kilns",
+        "Grinding and mixing of clinker raw materials",
+        "Hydration reaction during concrete curing"
+      ],
+      "correctAnswer": "Calcination of limestone (CaCO3 -> CaO + CO2)",
+      "explanation": "Roughly 60% of cement manufacturing emissions stem from chemical calcination breaking limestone into lime and CO2.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 2
+    },
+    {
+      "questionId": "q10_3",
+      "topicId": "topic_10",
+      "questionText": "In Industrial Ecology, what is 'Kalundborg Symbiosis' famous for exemplifying?",
+      "type": "MCQ",
+      "options": [
+        "A closed-loop industrial ecosystem where waste heat, steam, and material outputs of one company serve as inputs for another.",
+        "The first commercial carbon capture facility operating in Scandinavia.",
+        "An automated Life Cycle Assessment software platform.",
+        "A zero-emissions international shipping corridor."
+      ],
+      "correctAnswer": "A closed-loop industrial ecosystem where waste heat, steam, and material outputs of one company serve as inputs for another.",
+      "explanation": "Kalundborg in Denmark is the textbook model of industrial symbiosis, exchanging waste steam, cooling water, and gypsum.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 3
+    },
+    {
+      "questionId": "q10_4",
+      "topicId": "topic_10",
+      "questionText": "Green hydrogen is produced via steam methane reforming (SMR) coupled with carbon capture and storage (CCS).",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "Green hydrogen is produced via water electrolysis powered by 100% renewable electricity. SMR with CCS produces Blue hydrogen.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 4
+    },
+    {
+      "questionId": "q10_5",
+      "topicId": "topic_10",
+      "questionText": "Which geological formation is widely considered optimal for permanent underground Carbon Capture and Storage (CCS)?",
+      "type": "MCQ",
+      "options": [
+        "Deep Saline Aquifers",
+        "Shallow Sandstone Caves",
+        "Surface Volcanic Basalt Cracks",
+        "Open Coal Mining Shafts"
+      ],
+      "correctAnswer": "Deep Saline Aquifers",
+      "explanation": "Deep saline aquifers provide massive volumetric storage capacity sealed under impermeable caprock formations.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 5
+    },
+    {
+      "questionId": "q10_6",
+      "topicId": "topic_10",
+      "questionText": "Material Flow Analysis (MFA) tracks system mass balances across industrial supply chains using conservation of mass principles.",
+      "type": "TRUE_FALSE",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "MFA quantifies physical flows and stocks of materials within spatial and temporal boundaries.",
+      "difficulty": "Expert",
+      "points": 20,
+      "orderIndex": 6
+    }
+  ],
+  "leaderboard": [
+    { "userId": "seed_user_01", "displayName": "Dr_Climate_Researcher", "photoUrl": "", "totalPoints": 18500, "quizzesCompleted": 65, "videosWatched": 20, "topicsCompleted": 10, "level": "Expert", "weeklyPoints": 1250 },
+    { "userId": "seed_user_02", "displayName": "Sustainability_MSc", "photoUrl": "", "totalPoints": 14200, "quizzesCompleted": 50, "videosWatched": 18, "topicsCompleted": 9, "level": "Expert", "weeklyPoints": 980 },
+    { "userId": "seed_user_03", "displayName": "Green_Energy_Engineer", "photoUrl": "", "totalPoints": 11750, "quizzesCompleted": 42, "videosWatched": 15, "topicsCompleted": 8, "level": "Expert", "weeklyPoints": 820 }
+  ]
+}
